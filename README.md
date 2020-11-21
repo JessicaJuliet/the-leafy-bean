@@ -84,7 +84,7 @@ Please see [The Leafy Bean’s](#) live website.
 * I kept the colour scheme in line with The Leafy Bean's product offering -  coffee
 * I used Adobe Color to create a colour swatch for this website
 
-![Colour swatches](/img/color-swatches.png "Colour Swatches")
+![Colour swatches](https://github.com/JessicaJuliet/the-leafy-bean/blob/1bc7680561ed4c7ea9e4e8733e5ad784f6c640cf/assets/img/color-swatches.png "Colour Swatches")
 
 
 ## Technologies Used
