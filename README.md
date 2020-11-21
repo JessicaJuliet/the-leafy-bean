@@ -2,16 +2,23 @@
 
 ## Purpose
 
-Many local businesses in Ireland have been hit hard by the COVID-19 pandemic this year. 
-Government restrictions have led to forced shop closures and continued uncertainty for small businesses. 
-As consumers’ buying habits shift predominantly online, it’s more important than ever for small businesses to have a strong online presence during these challenging times. 
+Many local businesses in Ireland have been hit hard by the COVID-19 pandemic this year. New
+Government restrictions have led to shop closures and continued uncertainty for small businesses. 
+As consumers’ buying habits shift predominantly online, it’s more important than ever for small businesses 
+to have a strong online presence during these challenging times. 
 
-Based on the current climate, I have created a fictional local independent coffee shop called The Leafy Bean in Blackrock, Dublin. The Leafy Bean has a poor online presence and are struggling to reach their customers during the pandemic. They requested a fully responsive website which will allow them to notify their customers of their opening hours in line with government restrictions, as well as promote their new takeaway coffee service. 
+I have created a fictional local independent coffee shop called The Leafy Bean in Blackrock, Dublin. 
+The Leafy Bean has a poor online presence and are struggling to reach their customers during the pandemic. 
+They requested a fully responsive website which will allow them to notify their customers of their opening hours 
+in line with government restrictions, and promote their new takeaway coffee service. Furthermore, The Leafy Bean
+wants to establish itself as a local provider of the best coffee in Blackrock and provide information about its 
+speciality coffee blend.
 
-Please note, this company is entirely fictional and was created for the Code Institute’s Milestone Project 1 as part of their Diploma in Full Stack Software Development. 
-It was developed using the knowledge gained from the HTML, CSS and User Centric Design modules. 
+Please note, this company is entirely fictional and was created for the Code Institute’s Milestone Project 1 
+as part of their Diploma in Full Stack Software Development. It was developed using the knowledge gained 
+from the HTML, CSS and User Centric Design modules. 
 
-Please see The Leafy Bean’s live website. 
+Please see [The Leafy Bean’s](#) live website. 
 
 ## User Experience Design (UXD)
 
@@ -22,7 +29,7 @@ Please see The Leafy Bean’s live website.
     * As a first time visitor, I want to be easily able to navigate through the site easily on mobile to find what I’m looking for
     * As a first time visitor, I want to check if they’re an independent coffee shop or a chain
     * As a first time visitor, I want to locate their social media links to see how many followers they have, images of their coffee, and whether they’re well-rated and followed by my friends
-
+ 
 * Returning Visitor Goals
 
     * As a returning visitor, I want to check the shop’s opening hours during current covid restrictions
