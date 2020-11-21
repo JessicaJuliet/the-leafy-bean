@@ -26,17 +26,17 @@ Please see [The Leafy Bean’s](#) live website.
 
 * First Time Visitor Goals
 
-    * As a first time visitor, I want to be able to navigate through the website easily on mobile to find 
+    * As a first-time visitor, I want to be able to navigate through the website easily on mobile to find 
     what I’m looking for
-    * As a first time visitor, I want to see a visually pleasing website with eye-catching coffee related 
+    * As a first-time visitor, I want to see a visually pleasing website with eye-catching coffee related 
     imagery to entice me to buy
-    * As a first time visitor, I want to locate their social media links to see if they have a large social 
+    * As a first-time visitor, I want to locate their social media links to see if they have a large social 
     following and whether they're well-rated
  
 * Returning Visitor Goals
 
     * As a returning visitor, I want to find information about their takeaway service
-    * As a frequent visitor, I want to check the shop’s opening hours during the current COVID-19 restrictions
+    * As a returning visitor, I want to check the shop’s opening hours during the current COVID-19 restrictions
     * As a returning visitor, I want to see information about the quality of their coffee beans
 
 * Frequent Visitor Goals
