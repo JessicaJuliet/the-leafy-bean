@@ -1,3 +1,30 @@
+## Table of Contents
+
+* Purpose
+* User Experience Design (UXD)
+    * Target Audience
+    * User Stories
+        * First-time Visitor Goals
+        * Returning Visitor Goals
+        * Frequent Visitor Goals
+    * Low fidelity wireframes
+* Design
+    * Color scheme
+    * Typography
+    * High fidelity wireframes
+    * Imagery 
+    * Variations
+* Features
+    * Existing Features
+    * Features Left to Implement
+* Technologies Used
+* Testing
+* Deployment 
+* Credits 
+
+------
+
+
 # The Leafy Bean Website
 
 ## Purpose
@@ -22,6 +49,11 @@ Please see [The Leafy Bean’s](#) live website.
 
 ## User Experience Design (UXD)
 
+
+### Target Audience
+
+
+
 ### User Stories
 
 * First Time Visitor Goals
@@ -45,5 +77,32 @@ Please see [The Leafy Bean’s](#) live website.
     * As a frequent visitor, I want to check to see if they have a loyalty scheme
     * As a frequent visitor, I want to read about the company to establish whether they're an independent 
     coffee shop or a chain
+
+
+
+
+
+
+## Technologies Used
+
+* [GitHub](https://github.com/)
+    * GithHub is the hosting site used to store the source code for the Website
+
+* Git
+    * Git was used as the version control software to add, commit and push code to the GitHub repository
+
+* [balsamiq](https://balsamiq.com/wireframes/)
+    * balsamiq was used to create low-fidelity mock-ups of the website
+
+* [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+    * Photoshop was used to create high-fidelity mock-ups of the website
+
+* [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
+    * Illustrator was used to create the logo for The Leafy Bean
+
+
+
+
+
 
 
