@@ -78,9 +78,13 @@ Please see [The Leafy Bean’s](#) live website.
     * As a frequent visitor, I want to read about the company to establish whether they're an independent 
     coffee shop or a chain
 
+## Design 
 
+### Colour Scheme
+* I kept the colour scheme in line with The Leafy Bean's product offering -  coffee
+* I used Adobe Color to create a colour swatch for this website
 
-
+![Colour swatches](/img/color-swatches.png "Colour Swatches")
 
 
 ## Technologies Used
@@ -100,7 +104,8 @@ Please see [The Leafy Bean’s](#) live website.
 * [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
     * Illustrator was used to create the logo for The Leafy Bean
 
-
+* [Adobe Color](https://color.adobe.com/)
+    * Adobe Color was used to generate a color palette for the website
 
 
 
