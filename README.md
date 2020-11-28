@@ -81,10 +81,22 @@ Please see [The Leafy Bean’s](#) live website.
 ## Design 
 
 ### Colour Scheme
-* I kept the colour scheme in line with The Leafy Bean's product offering -  coffee
-* I used Adobe Color to create a colour swatch for this website
+The two main colours used are white and brown to tie in with The Leafy Bean's product offering - coffee. 
+Adobe Color to create a colour swatch to find the right brown for this website.
 
 ![Colour swatches](https://github.com/JessicaJuliet/the-leafy-bean/blob/1bc7680561ed4c7ea9e4e8733e5ad784f6c640cf/assets/img/color-swatches.png "Colour Swatches")
+
+
+### Wireframes
+
+The Leafy Bean's website is a single page site. Please see the wireframes below for the varying devices:
+* [Mobile Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/mobile-wireframe.pdf)
+* [Tablet Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/tablet-wireframe.pdf)
+* [Desktop Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/desktop-wireframe.pdf)
+
+A high-fidelity mockup for mobile was created using Adobe Illustrator to trial the use of colour and to allow for better 
+visualisation of how the website would look prior to commencing coding.
+* [High-fidelity mobile mockup](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/hifi-mobile-mockup.png)
 
 
 ## Technologies Used
@@ -96,7 +108,7 @@ Please see [The Leafy Bean’s](#) live website.
     * Git was used as the version control software to add, commit and push code to the GitHub repository
 
 * [balsamiq](https://balsamiq.com/wireframes/)
-    * balsamiq was used to create low-fidelity mock-ups of the website
+    * balsamiq was used to create low-fidelity wireframes of the website
 
 * [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
     * Photoshop was used to create high-fidelity mock-ups of the website
