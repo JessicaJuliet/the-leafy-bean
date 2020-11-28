@@ -27,6 +27,8 @@ header {
 .hero-image
 {
     background: url("../img/hero-image.jpg");   
+    /* Photo by Chevanon Photography from Pexels - 
+    https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,9 +81,6 @@ header {
 
 /* ----------------------------- Four icon section */
 
-/*Help from CI course & Chrome Developer tools: 
-https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/
-*/
 
 .icon {
     color: #fafafa;
@@ -89,9 +88,12 @@ https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/cou
     border-radius: 100px;
     font-size: 50px;
     padding: 30px;
-    margin: 0;
+    margin: 25px 0 0 0;
 }
 
+/*Help from CI course & Chrome Developer tools to align icons side-by-side: 
+https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/
+*/
 
 .list-inline-item:not(:last-child) {
     margin: 0;
