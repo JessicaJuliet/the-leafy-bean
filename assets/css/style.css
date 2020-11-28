@@ -66,3 +66,30 @@ header {
     height: 50px;
     width: 140px;
 }
+
+/* Coffee to Go section */
+
+.section {
+    padding: 60px 0;
+
+}
+
+.heading {
+    padding: 0 0 25px 0; 
+}
+
+.icon {
+    color: #fafafa;
+    background-color: #8f6f4d;
+    border-radius: 100px;
+    font-size: 50px;
+    padding: 30px;
+    margin: 0;
+    
+}
+
+i, {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
