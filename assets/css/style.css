@@ -5,7 +5,7 @@ header {
 }
 
 
-/* Navbar */
+/* ----------------------------- Navbar */
 
 .navbar-custom {
     padding: 30px 150px 30px 150px;
@@ -22,7 +22,7 @@ header {
     color: #8f6f4d;
 }
 
-/* Hero-image */
+/* ----------------------------- Hero-image */
 
 .hero-image
 {
@@ -67,16 +67,21 @@ header {
     width: 140px;
 }
 
-/* Coffee to Go section */
+/* ----------------------------- Coffee to Go section */
 
 .section {
     padding: 60px 0;
-
 }
 
 .heading {
     padding: 0 0 25px 0; 
 }
+
+/* ----------------------------- Four icon section */
+
+/*Help from CI course & Chrome Developer tools: 
+https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/
+*/
 
 .icon {
     color: #fafafa;
@@ -85,11 +90,19 @@ header {
     font-size: 50px;
     padding: 30px;
     margin: 0;
-    
 }
 
-i, {
-    padding: 0px;
-    margin: 0px;
-    display: inline-block;
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
 }
+
+.menucontainer {
+    font-size: 0;
+}
+
+#usp li {
+    font-size: 14px;
+    padding: 0;
+}
+
