@@ -21,3 +21,48 @@ header {
     font-size: 20pt;
     color: #8f6f4d;
 }
+
+/* Hero-image */
+
+.hero-image
+{
+    background: url("../img/hero-image.jpg");   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    position: absolute;
+    bottom: 165px;
+    left: 150px;
+}
+
+#hero-h1{
+    letter-spacing: 5px;
+    font-family: 'Playfair';
+    font-weight: 700;
+    font-size: 40px
+}
+
+#hero-h2 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.btn .btn-light {
+    font-family: 'Roboto';
+}
+
+#hero-button {
+    font-weight: 700;
+    color: white;
+    background-color: #8f6f4d;
+    height: 50px;
+    width: 140px;
+}
