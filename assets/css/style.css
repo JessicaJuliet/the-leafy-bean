@@ -75,9 +75,15 @@ header {
     padding: 60px 0;
 }
 
-.heading {
+.h2-heading-style { /* Apply across all H2s */
+    font-family: 'Roboto Slab', serif;
     padding: 0 0 25px 0; 
 }
+
+.paragraph-style { /* Apply across all paragraphs */
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /* ----------------------------- Four icon section */
 
