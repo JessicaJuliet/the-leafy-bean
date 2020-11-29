@@ -98,6 +98,18 @@ A high-fidelity mockup for mobile was created using Adobe Illustrator to trial t
 visualisation of how the website would look prior to commencing coding.
 * [High-fidelity mobile mockup](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/hifi-mobile-mockup.png)
 
+### Fonts
+
+The fonts originally chosen for this website were [Roboto](https://fonts.google.com/specimen/Roboto) and [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?query=playfair), 
+based on inspiration take from [The Art of Coffee](https://theartofcoffee.ie/) website. However, once I commenced building the site, 
+I didn't feel that Playfair Display tied into the branding I had in mind for The Leafy Bean - a fun and modern coffee shop 
+who's knowledgeable about their coffee! 
+
+I trialed new fonts using Google Fonts and Google Chrome Developer tools to see sample text from The Leafy Bean's website in various fonts.
+Furthermore, I took guidance from Google Font's "Popular Pairings" to find new fonts.  
+
+I decided to change Playfair Display to [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=roboto) instead. 
+Roboto Slab offers a more fun font with its friendly and open curves, versus Playfair which has a more vintage feel to it. 
 
 ## Technologies Used
 
@@ -118,6 +130,9 @@ visualisation of how the website would look prior to commencing coding.
 
 * [Adobe Color](https://color.adobe.com/)
     * Adobe Color was used to generate a color palette for the website
+
+* [Google Fonts](https://fonts.google.com/)
+    * Google Fonts was used to find and sample fonts for the website
 
 
 
