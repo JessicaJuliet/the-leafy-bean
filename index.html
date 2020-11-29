@@ -33,30 +33,33 @@
     </header>
 
 <!-- Hero Image -->
-    <div class="hero-image">
-        <div class="container hero-text col-sm-3 col-md-3 col-lg-3">
-            <h1 id="hero-h1">The Leafy Bean</h1>
-            <br>
-            <h2 id="hero-h2">Coffee lover? Discover the finest coffee
-            in the heart of Blackrock</h2>
-            <br>
-            <button type="button" class="btn btn-light" id="hero-button">
-            Coffee to Go</button>
+    <div class="hero-image container-fluid">
+        <div class="row">
+            <div class="container hero-text col-4">
+                <h1 id="hero-h1">The Leafy Bean</h1>
+                <br>
+                <h2 id="hero-h2">Coffee lover? Discover the finest coffee 
+                in the heart of Blackrock</h2>
+                <br>
+                <button type="button" class="btn btn-light" id="hero-button">
+                Coffee to Go</button>
+            </div>
         </div>
     </div>
+
 
 <!-- Coffee to Go section -->      
     <section class="container section">
         <h2 class="h2-heading-style">Coffee to Go</h2>
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm">
                 <p class="paragraph-style">
                 Our takeaway service. Our takeaway service. Our takeaway service.
                 Our takeaway service. Our takeaway service. Our takeaway service.
                 Our takeaway service. Our takeaway service.
                 </p>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm">
                 <p class="paragraph-style">
                 Our takeaway service. Our takeaway service. Our takeaway service.
                 Our takeaway service. Our takeaway service. Our takeaway service. Our takeaway service. 
@@ -66,6 +69,18 @@
         </div>
 
 <!-- Four row icons-->
+    <!-- Resource: https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal -->
+    <div class="container icon-container usp-icons-row">
+        <div class="row no-gutters usp-icons-row" id="usp">
+            <div class="col-sm usp-icons usp-icons-row"><i class="fa fa-coffee icon" aria-hidden="true";></i><br>Column</div>
+            <div class="col-sm usp-icons usp-icons-row"><i class="fa fa-envira icon" aria-hidden="true";></i><br>Column</div>
+            <div class="col-sm usp-icons usp-icons-row"><i class="fa fa-coffee icon" aria-hidden="true";></i><br>Column</div>
+            <div class="col-sm usp-icons usp-icons-row"><i class="fa fa-envira icon" aria-hidden="true";></i><br>Column</div>
+        </div>
+    </div>
+
+
+<!-- Previous 4 icon code 
         <div class="row no-gutters">
             <div class="col">
                 <ul id="usp" class="list-inline menucontainer">
@@ -85,6 +100,7 @@
             </div>
         </div>
      </section>
+-->
 
 <!-- Bean Points section -->  
     <section>
