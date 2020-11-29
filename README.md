@@ -135,6 +135,11 @@ Roboto Slab offers a more fun font with its friendly and open curves, versus Pla
     * Google Fonts was used to find and sample fonts for the website
 
 
+## Credits
+
+### Media 
+* The photos used in this website were obtained from [Pexels](https://www.pexels.com/) and their source is 
+referenced in the code
 
 
 
