@@ -83,6 +83,7 @@ header {
 
 .paragraph-style { /* Apply across all paragraphs */
     font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 
 
@@ -119,3 +120,8 @@ header {
 }
 
 
+/* ----------------------------- Bean Points section */
+
+.bean-points {
+    padding: 100px 0 0 0;
+}
