@@ -16,7 +16,7 @@ header {
 }
 
 #logo {
-    font-family: 'Playfair';
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 20pt;
     color: #8f6f4d;
@@ -45,13 +45,13 @@ header {
 
 #hero-h1{
     letter-spacing: 5px;
-    font-family: 'Playfair';
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 40px
 }
 
 #hero-h2 {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 25px;
     line-height: 35px;
