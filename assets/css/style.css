@@ -39,6 +39,7 @@ header {
 .hero-text {
     color: white;
     position: absolute;
+    top: 200px;
     bottom: 165px;
     left: 150px;
 }
@@ -88,20 +89,28 @@ header {
 /* ----------------------------- Four icon section */
 
 
+    /* Resource: Bootstrap Stacked to Horizontal layout - https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal */
+
 .icon {
     color: #fafafa;
     background-color: #8f6f4d;
     border-radius: 100px;
     font-size: 50px;
     padding: 30px;
-    margin: 25px 0 0 0;
+    margin: 25px 0 0 0;     
 }
 
-/*Help from CI course & Chrome Developer tools to align icons side-by-side: 
-https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/
-*/
+.four-icon-text {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
 
-.list-inline-item:not(:last-child) {
+    /* Resource: CI course & Chrome Developer tools to align icons side-by-side -
+    https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/ */
+
+.list-inline-item:not(:last-child) { /* Chrome Developer tools class */
     margin: 0;
 }
 
@@ -109,8 +118,4 @@ https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/cou
     font-size: 0;
 }
 
-#usp li {
-    font-size: 14px;
-    padding: 0;
-}
 
