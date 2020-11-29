@@ -13,6 +13,7 @@
 <!-- Start header section --> 
     <header>
     <!-- Used Bootstrap code to create nav - https://getbootstrap.com/docs/4.0/components/navbar/-->
+    <!-- Resource: https://stackoverflow.com/questions/34125917/how-to-make-anchor-links-jump-to-content-when-using-bootstrap-tabs to create jump links-->
         <nav class="navbar-custom navbar fixed-top navbar-expand-md navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" id="logo" href="index.html">The Leafy Bean</a>
@@ -22,12 +23,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link" href="## Coffee to Go">Coffee to Go</a>
-                        <a class="nav-item nav-link" href="#">Bean Points</a>
-                        <a class="nav-item nav-link" href="#">About</a>
-                        <a class="nav-item nav-link" href="#">Opening Hours</a>
-                        <a class="nav-item nav-link" href="#">Find Us</a>
-                        <a class="nav-item nav-link" href="#">Contact</a>
+                        <a class="nav-item nav-link" href="#coffee-to-go-nav-link">Coffee to Go</a>
+                        <a class="nav-item nav-link" href="#bean-points-nav-link">Bean Points</a>
+                        <a class="nav-item nav-link" href="#about-nav-link">About</a>
+                        <a class="nav-item nav-link" href="#opening-hours-nav-link">Opening Hours</a>
+                        <a class="nav-item nav-link" href="#find-us-nav-link">Find Us</a>
+                        <a class="nav-item nav-link" href="#contact-nav-link">Contact</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +51,7 @@
     </div>
 <!-- End hero image -->
 <!-- Start Coffee to Go section -->      
-    <section class="container section">
+    <section class="container section" id="coffee-to-go-nav-link">
         <h2 class="h2-heading-style">Coffee to Go</h2>
         <div class="row">
             <div class="col-sm">
@@ -94,7 +95,7 @@
     </div>
 <!-- End four row icons -->
 <!-- Start bean points section -->  
-    <section class="bean-points">
+    <section class="bean-points" id="bean-points-nav-link">
         <div class="container">
             <h2 class="h2-heading-style">Bean Points</h2>
             <div class="row no-gutter">
@@ -121,16 +122,20 @@
         </div>
     </section>
 <!-- About section -->
-    <section>
+    <section id="about-nav-link">
     
     </section>
 
-<!-- Opening Hours/ Find Us section -->
-    <section>
+<!-- Opening Hours section -->
+    <section id="opening-hours-nav-link">
+    
+    </section>
+<!-- Find Us section -->
+    <section id="find-us-nav-link">
     
     </section>
 <!-- Contact section -->    
-    <section>
+    <section id="contact-nav-link">
     
     </section>
 <!-- Footer --> 
