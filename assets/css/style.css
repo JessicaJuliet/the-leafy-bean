@@ -13,6 +13,9 @@ h2 {
     color: #695138;
 }
 
+.background-colour {
+background-color: rgba(143, 111, 77, 0.05); 
+}
 
 
 /* ----------------------------- Navbar */
@@ -66,6 +69,7 @@ h2 {
     font-weight: 300;
     font-size: 25px;
     line-height: 35px;
+    color: white;
 }
 
 .btn .btn-light {
@@ -82,7 +86,7 @@ h2 {
 
 /* ----------------------------- Coffee to Go section */
 
-.coffee-to-go {
+.coffee-to-go-section {
     padding: 80px 0;
 }
 
@@ -101,6 +105,10 @@ h2 {
 
 
     /* Resource: Bootstrap Stacked to Horizontal layout - https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal */
+
+.icon-section {
+    padding-bottom: 80px;
+}
 
 .icon {
     color: #fafafa;
@@ -132,7 +140,7 @@ h2 {
 /* ----------------------------- Bean Points section */
 
 .bean-points {
-    padding: 80px 0 0 0;
+    padding: 80px 0;
 }
 
 .list-text {
@@ -142,7 +150,7 @@ h2 {
 /* ----------------------------- About section */
 
 .about-section {
-    padding-top: 50px;
+    padding: 80px;
     background-color: rgba(143, 111, 77, 0.05)
 }
 
