@@ -124,3 +124,7 @@ header {
 .bean-points {
     padding: 80px 0;
 }
+
+.list-text {
+    font-family: 'Roboto', sans-serif;
+}
