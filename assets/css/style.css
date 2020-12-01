@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* ----------------------------- About section */
+/* ----------------------------- General */
 header {
     margin: 0;
 }
@@ -11,21 +11,27 @@ body {
 
 h2 {
     color: #695138;
+    font-family: 'Roboto Slab', serif;
+    padding: 0 0 25px 0; 
 }
 
-.background-colour {
-background-color: rgba(143, 111, 77, 0.05); 
+.colour-section {
+    background-color: rgba(143, 111, 77, 0.05); 
 }
 
+.my-section {
+    padding: 80px 0;
+}
+
+p, li { 
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
 
 /* ----------------------------- Navbar */
 
 .navbar-custom {
-    padding: 30px 150px 30px 150px;
-}
-
-.navbar-text {
-    color: blue;
+    padding: 30px 0 30px 0;
 }
 
 #logo {
@@ -37,8 +43,7 @@ background-color: rgba(143, 111, 77, 0.05);
 
 /* ----------------------------- Hero-image */
 
-.hero-image
-{
+.hero-image {
     background: url("../img/hero-image.jpg");   
     /* Photo by Chevanon Photography from Pexels - 
     https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/*/
@@ -50,18 +55,17 @@ background-color: rgba(143, 111, 77, 0.05);
 }
 
 .hero-text {
-    color: white;
     position: absolute;
     top: 200px;
     bottom: 165px;
-    left: 250px;
 }
 
 #hero-h1{
     letter-spacing: 5px;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-    font-size: 40px
+    font-size: 40px;
+    color: #fafafa;
 }
 
 #hero-h2 {
@@ -69,7 +73,7 @@ background-color: rgba(143, 111, 77, 0.05);
     font-weight: 300;
     font-size: 25px;
     line-height: 35px;
-    color: white;
+    color: #fafafa;
 }
 
 .btn .btn-light {
@@ -78,37 +82,16 @@ background-color: rgba(143, 111, 77, 0.05);
 
 #hero-button {
     font-weight: 700;
-    color: white;
+    color: #fafafa;
     background-color: #8f6f4d;
-    height: 50px;
-    width: 140px;
+    height: 55px;
+    width: 145px;
 }
-
-/* ----------------------------- Coffee to Go section */
-
-.coffee-to-go-section {
-    padding: 80px 0;
-}
-
-.h2-heading-style { /* Apply across all H2s */
-    font-family: 'Roboto Slab', serif;
-    padding: 0 0 25px 0; 
-}
-
-.paragraph-style { /* Apply across all paragraphs */
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-}
-
 
 /* ----------------------------- Four icon section */
 
 
     /* Resource: Bootstrap Stacked to Horizontal layout - https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal */
-
-.icon-section {
-    padding-bottom: 80px;
-}
 
 .my-icon {
     color: #fafafa;
@@ -116,54 +99,20 @@ background-color: rgba(143, 111, 77, 0.05);
     border-radius: 100px;
     font-size: 50px;
     padding: 30px;
-    margin: 25px 0 0 0;     
+    margin-top: 50px;
+    text-align: center;
 }
 
-.four-icon-text {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+.four-icons {
     text-align: center;
 }
 
     /* Resource: CI course & Chrome Developer tools to align icons side-by-side -
     https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/ */
 
-.list-inline-item:not(:last-child) { /* Chrome Developer tools class */
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-/* ----------------------------- Bean Points section */
-
-.bean-points {
-    padding: 80px 0;
-}
-
-.list-text {
-    font-family: 'Roboto', sans-serif;
-}
 
 /* ----------------------------- About section */
-
-.about-section {
-    padding: 80px 0;
-    background-color: rgba(143, 111, 77, 0.05)
-}
 
 .column img {
     padding-bottom: 30px;
 }
-
-
-/* ----------------------------- Opening hours section */
-
-.hours-section {
-    padding: 80px 0;
-}
-
-/* ----------------------------- Media queries */
-
