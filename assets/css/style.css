@@ -110,7 +110,7 @@ background-color: rgba(143, 111, 77, 0.05);
     padding-bottom: 80px;
 }
 
-.icon {
+.my-icon {
     color: #fafafa;
     background-color: #8f6f4d;
     border-radius: 100px;
@@ -150,11 +150,20 @@ background-color: rgba(143, 111, 77, 0.05);
 /* ----------------------------- About section */
 
 .about-section {
-    padding: 80px;
+    padding: 80px 0;
     background-color: rgba(143, 111, 77, 0.05)
 }
 
 .column img {
     padding-bottom: 30px;
 }
+
+
+/* ----------------------------- Opening hours section */
+
+.hours-section {
+    padding: 80px 0;
+}
+
+/* ----------------------------- Media queries */
 
