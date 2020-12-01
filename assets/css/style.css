@@ -116,3 +116,15 @@ p, li {
 .column img {
     padding-bottom: 30px;
 }
+
+
+
+/* ----------------------------- Media Queries */
+
+
+@media screen and (max-width: 600px) {
+    #hero-h2, #hero-h1, .btn {
+        display: none; 
+    }
+} /* Reference: https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries */
+
