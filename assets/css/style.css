@@ -77,7 +77,7 @@ p, li {
 }
 
 .btn .btn-light {
-    font-family: 'Roboto';
+   font-family: 'Roboto', sans-serif;
 }
 
 #hero-button {
@@ -117,6 +117,45 @@ p, li {
     padding-bottom: 30px;
 }
 
+/* ----------------------------- Form section */
+
+.form-section {
+    /*background-color: #8f6f4d; */
+    background-color: rgba(143, 111, 77, 1)
+}
+
+.contact-details {
+    padding-right: 40px; 
+}
+
+.form-text {
+    color: #fafafa;
+}
+
+.form-heading, .contact-icon {
+    font-weight: 300;
+    color: #fafafa;
+    font-weight: 400;
+}
+
+.form-heading {
+    padding: 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-button {
+    margin-top: 20px;
+    font-weight: 700;
+    color: #8f6f4d;
+    background-color: #fafafa;
+    height: 55px;
+    width: 145px;
+    border: none;
+}
+
+.btn-form:hover { /* Resource: https://stackoverflow.com/questions/25923623/change-hover-color-on-a-button-with-bootstrap-customization */
+    background-color: #695138;
+}
 
 
 /* ----------------------------- Media Queries */
@@ -128,3 +167,17 @@ p, li {
     }
 } /* Reference: https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries */
 
+/* @media screen and (max-width: 00px){
+    .left_bottom{
+        float: left;
+        width: 100%;
+    }
+    .right_top{
+        float: left;
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+    } 
+} https://stackoverflow.com/questions/33082796/how-to-reverse-the-order-of-elements-in-media-queries */ 

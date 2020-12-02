@@ -58,7 +58,7 @@
     <div class="colour-section my-section"> <!-- Start colour box around 'Coffee to Go' and four icons -->   
         <section id="coffee-to-go-nav-link">
             <div class="container">
-                <h2>Coffee to Go</h2>
+            <h2>Coffee to Go</h2>
                 <div class="row">
                     <div class="col-sm-6">
                         <p>
@@ -136,7 +136,7 @@
     <section class="my-section colour-section" id="about-nav-link">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-3 col-lg-3 column"> 
+                <div class="box1 col-sm-6 col-md-3 col-lg-3 column"> 
                     <img src="assets/img/coffee-shop-1.jpg" class="img-fluid" alt="Waiter holding coffee in hands">
                     <img src="assets/img/coffee-shop-2.jpg" class="img-fluid" alt="Coffee and pastries on wooden table">
                 </div>
@@ -144,7 +144,7 @@
                     <img src="assets/img/coffee-shop-3.jpg" class="img-fluid" alt="Three hands holding coffee cups together">
                     <img src="assets/img/coffee-shop-4.jpg" class="img-fluid" alt="Coffee machine">
                 </div>
-                <div class="col-sm-10 col-md-6 col-lg-6">
+                <div class="box2 col-sm-10 col-md-6 col-lg-6">
                     <h2>About</h2>
                     <p class="paragraph-style"> 
                         Register and collect card in-store. Register and collect card in-store. 
@@ -194,13 +194,48 @@
         </div>
     </section>
 <!-- End 'Opening Hours' / 'Find Us' section -->
-
-
-
 <!-- Contact section -->    
-    <section id="contact-nav-link">
-    
+    <section class="my-section form-section" id="contact-nav-link">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-12 col-lg-12">
+                    <h2 class="form-text">Contact</h2>
+                    <!-- Reference: https://fontawesome.bootstrapcheatsheets.com/# (icon source)-->
+                        <div class="form-text">
+                            <span class="fa fa-phone contact-icon" aria-hidden="true"></span> 
+                                <span class="contact-details">(01) 123 4567</span>
+                            <span class="fa fa-envelope-o contact-icon" aria-hidden="true"></span>
+                            support@theleafybean.ie
+                        </div>
+                        <br>
+                        <!-- Reference: code taken from https://getbootstrap.com/docs/4.0/components/forms/-->
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="form-message" class="form-heading">Your Name</label>
+                                <input type="text"id="your-name" class="form-control" placeholder="">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="form-message" class="form-heading">Your Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="">
+                            </div>
+                            <br>
+                            <div class="col-lg-12">
+                                <label for="form-message" class="form-heading">How can we help you?</label>
+                                <textarea class="form-control" id="form-message" rows="3"></textarea>
+                            </div>
+                            <div class="col-lg-12">
+                            <button type="submit" class="btn btn-light float-right form-button btn-form">
+                                Submit
+                            </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
+   
 <!-- Footer --> 
     <footer>
 
