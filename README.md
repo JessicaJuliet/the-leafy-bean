@@ -7,11 +7,10 @@
         * First-time Visitor Goals
         * Returning Visitor Goals
         * Frequent Visitor Goals
-    * Low fidelity wireframes
 * Design
     * Color scheme
     * Typography
-    * High fidelity wireframes
+    * Wireframes
     * Imagery 
     * Variations
 * Features
@@ -101,6 +100,9 @@ who's knowledgeable about their coffee!
 I trialed new fonts using Google Fonts and Google Chrome Developer tools to see sample text from The Leafy Bean's website in various fonts. Furthermore, I took guidance from Google Font's "Popular Pairings" to find new fonts.  
 
 I decided to change Playfair Display to [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=roboto) instead. Roboto Slab offers a more fun font with its friendly and open curves, versus Playfair which has a more vintage feel to it. 
+
+### Imagery
+The website uses strong impactful imagery of coffee to reinforce The Leafy Bean's product offering and to also appeal to the website user. The size and positioning of these images will vary depending on the screensize. 
 
 ## Technologies Used
 
