@@ -63,11 +63,6 @@ Please see [The Leafy Bean’s](#) live website.
     * As a frequent visitor, I want to read about the company to establish whether they're an independent 
     coffee shop or a chain
 
-## Features 
-
-### 
-
-
 ## Design 
 
 ### Colour Scheme
@@ -103,6 +98,29 @@ I decided to change Playfair Display to [Roboto Slab](https://fonts.google.com/s
 
 ### Imagery
 The website uses strong impactful imagery of coffee to reinforce The Leafy Bean's product offering and to also appeal to the website user. The size and positioning of these images will vary depending on the screensize. 
+
+## Structure  
+
+The website is a single page site and is broken down into seven sections. Each section is described in more detail below along with its features: 
+
+* Section 1 - Header
+
+* Section 2 - Coffee to Go
+* Section 3 - Bean Points
+* Section 4 - About
+* Section 5 - Opening Hours/ Find Us
+* Section 6 - Contact 
+* Section 7 - Footer
+
+## Features
+
+### Existing Features
+* Navbar - The navbar is fully responsive and sticky to ensure the user can easily access all navigational items at any point on the website. It 
+* Imagery - Impactful coffee related imagery was sourced from [Pexels](www.pexels.com) and [Unsplash](www.unsplash.com). These give structure and dimension to the website and help provide the user with a positive user experience on the website. 
+* White space - Lots of white space was used to help structure and organise the content, improve user experience and improve the legibility of text on the site.
+* 
+
+### Additional Features 
 
 ## Technologies Used
 
