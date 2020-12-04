@@ -28,6 +28,11 @@ p, li {
     color: black;
 }
 
+.small-icons {
+    color: #8f6f4d;
+}
+
+
 /* ----------------------------- Navbar */
 
 .navbar-custom {
@@ -40,6 +45,11 @@ p, li {
     font-size: 20pt;
     color: #8f6f4d;
 }
+
+.hamburger-button {
+    margin: 0 10px;
+}
+
 
 /* ----------------------------- Hero-image */
 
@@ -166,7 +176,14 @@ p, li {
     #hero-h2, #hero-h1, #hero-button {
         display: none; 
     }
-} /* Reference: https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries */
+
+@media screen and (max-width: 600px) {
+    #logo {
+        padding-left: 10px;
+    }
+
+
+/* Reference: https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries */
 
 /* @media screen and (max-width: 00px){
     .left_bottom{
