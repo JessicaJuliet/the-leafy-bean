@@ -66,7 +66,7 @@ Please see [The Leafy Bean’s](#) live website.
 ## Design 
 
 ### Colour Scheme
-The two main colours used across the website are white and brown to tie in with The Leafy Bean's product offering - coffee. 
+The two main colours used across the website are white and brown to tie in with The Leafy Bean's product offering - coffee. Furthermore, dark grey text was used instead of black for the paragraph text to improve its readability against the screens white background.
 
 Adobe Color was used to create a colour swatch to find the right shade of brown for the site. A dark brown (Hex Code #695138) was used for H2 headings on the site and a lighter shade of brown for icons and buttons (Hex Code #8f6f4d). 
 
@@ -115,10 +115,12 @@ The website is a single page site and is broken down into seven sections. Each s
 ## Features
 
 ### Existing Features
-* Navbar - The navbar is fully responsive and sticky to ensure the user can easily access all navigational items at any point on the website. It 
+* Navbar - The navbar is fully responsive and sticky to ensure the user can easily access all navigational items at any point on the website. Furthermore, it collapses into a hamburger icon on smaller devices
 * Imagery - Impactful coffee related imagery was sourced from [Pexels](www.pexels.com) and [Unsplash](www.unsplash.com). These give structure and dimension to the website and help provide the user with a positive user experience on the website. 
-* White space - Lots of white space was used to help structure and organise the content, improve user experience and improve the legibility of text on the site.
-* 
+* Icons - Icons were used in the 'Coffee to Go' section so users could quickly identify The Leafy Bean's key selling points 
+* White space - Lots of white space was used to help structure and organise the content, improve user experience and improve the legibility of text on the site
+* Contact form - A simple contact form is included to allow users to send a message to the cafe. It will not allow a user to submit it unless it has their email address
+* Map - A Google map was embedded on the website
 
 ### Additional Features 
 
