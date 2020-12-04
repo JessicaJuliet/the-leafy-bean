@@ -81,11 +81,12 @@ p, li {
 }
 
 #hero-button {
-    font-weight: 700;
+    font-weight: 500;
     color: #fafafa;
     background-color: #8f6f4d;
     height: 55px;
     width: 145px;
+    font-size: 25px;
 }
 
 /* ----------------------------- Four icon section */
