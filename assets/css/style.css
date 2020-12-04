@@ -101,11 +101,11 @@ p, li {
     font-size: 50px;
     padding: 30px;
     margin-top: 50px;
-    text-align: center;
 }
 
-.four-icons {
+.four-icons { 
     text-align: center;
+    margin: 0 auto;
 }
 
     /* Resource: CI course & Chrome Developer tools to align icons side-by-side -
