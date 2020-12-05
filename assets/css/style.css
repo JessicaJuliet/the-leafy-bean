@@ -161,6 +161,16 @@ p, li, .contact-form-text{
 }
 
 
+/* ---------------------------------------------------------- Find Us section */
+
+
+
+
+
+
+
+
+
 /* ---------------------------------------------------------- Form section */
 
 .form-section {
@@ -198,6 +208,16 @@ a {color: inherit};
     color: #fafafa;
 }
 
+/* ---------------------------------------------------------- Full width image */
+
+.full-width-image {
+    background: url("../img/scattered-coffee-beans-lg.jpg");   
+    /* Resource: Photo by Joy Hayman on Unsplash https://unsplash.com/photos/36EMSp9sAtQ */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
 
 /* ---------------------------------------------------------- Media Queries */
 
@@ -222,8 +242,6 @@ a {color: inherit};
         font-size: 25px;
     }
 }
-
-
 
 /* Reference: https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries */
 
