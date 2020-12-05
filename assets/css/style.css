@@ -219,6 +219,36 @@ a {color: inherit};
     min-height: 200px;
 }
 
+/* ---------------------------------------------------------- Full width image */
+
+footer {
+    background-color: #8f6f4d;
+}
+
+footer .fontawesome-icons {
+    color: white;
+    padding: 0 30px 0 0;
+}
+
+/* ---------------------------------------------------------- Footer */
+
+.footer {
+    padding-top: 60px;
+    line-height: 50px;
+    color: #fafafa;
+    min-height: 350px;
+    font-size: 15px;
+}
+
+.address {
+    padding-left: 47px;
+    line-height: 20px;
+}
+
+footer .contact-number, footer .contact-email {
+    color: white;
+}
+
 /* ---------------------------------------------------------- Media Queries */
 
 /* Hero image */
