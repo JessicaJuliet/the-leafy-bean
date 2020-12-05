@@ -137,6 +137,16 @@ p, li, .contact-form-text{
     margin: 0 auto;
 }
 
+.zoom {
+  transition: transform .5s; /* Animation */
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
     /* Resource: CI course & Chrome Developer tools to align icons side-by-side -
     https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/ */
@@ -147,6 +157,7 @@ p, li, .contact-form-text{
 .column img {
     padding-bottom: 30px;
 }
+
 
 /* ---------------------------------------------------------- Form section */
 
