@@ -119,16 +119,19 @@ p, li {
 .my-icon {
     color: #fafafa;
     background-color: #8f6f4d;
-    border-radius: 100px;
+    border-radius: 50%;
     font-size: 50px;
     padding: 30px;
     margin-top: 50px;
+    height: 7rem;
+    width: 7rem;
 }
 
 .four-icons { 
     text-align: center;
     margin: 0 auto;
 }
+
 
     /* Resource: CI course & Chrome Developer tools to align icons side-by-side -
     https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/ */
