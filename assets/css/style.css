@@ -21,7 +21,7 @@ h2::after {
     content:'';
     height: 3px;
     width: 45px;
-    background: #695138;;
+    background: #695138;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -60,6 +60,11 @@ p, li, .contact-form-text{
 
 .hamburger-button {
     margin: 0 10px;
+}
+
+/* Resource: How to override Bootstrap nav styling https://stackoverflow.com/questions/38548629/overriding-bootstrap-to-change-color-of-navbar-links */
+.nav-link {
+    color: #695138 !important;
 }
 
 
