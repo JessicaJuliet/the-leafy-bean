@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* ----------------------------- General */
+/* ---------------------------------------------------------- General */
 header {
     margin: 0;
 }
@@ -35,17 +35,17 @@ h2::after {
     padding: 80px 0;
 }
 
-p, li { 
+p, li, .contact-form-text{ 
     font-family: 'Roboto', sans-serif;
     color: #444444;
 }
 
-.small-icons {
+.fontawesome-icons {
     color: #8f6f4d;
 }
 
 
-/* ----------------------------- Navbar */
+/* ---------------------------------------------------------- Navbar */
 
 .navbar-custom {
     padding: 30px 0 30px 0;
@@ -63,7 +63,7 @@ p, li {
 }
 
 
-/* ----------------------------- Hero-image */
+/* ---------------------------------------------------------- Hero-image */
 
 .hero-image {
     background: url("../img/hero-image.jpg");   
@@ -111,7 +111,7 @@ p, li {
     font-size: 25px;
 }
 
-/* ----------------------------- Four icon section */
+/* ---------------------------------------------------------- Four icon section */
 
 
     /* Resource: Bootstrap Stacked to Horizontal layout - https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal */
@@ -137,36 +137,21 @@ p, li {
     https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/ */
 
 
-/* ----------------------------- About section */
+/* ---------------------------------------------------------- About section */
 
 .column img {
     padding-bottom: 30px;
 }
 
-/* ----------------------------- Form section */
+/* ---------------------------------------------------------- Form section */
 
 .form-section {
-    /*background-color: #8f6f4d; */
-    background-color: rgba(143, 111, 77, 1)
+    background-color: rgba(143, 111, 77, 0.3);
+    padding: 35px;
 }
 
-.contact-details {
-    padding-right: 40px; 
-}
-
-.form-text {
-    color: #fafafa;
-}
-
-.form-heading, .contact-icon {
-    font-weight: 300;
-    color: #fafafa;
-    font-weight: 400;
-}
-
-.form-heading {
-    padding: 5px 0;
-    font-family: 'Roboto', sans-serif;
+.contact-form-text {
+    padding: 5px 20px 10px 0px;
 }
 
 .form-button {
@@ -180,11 +165,12 @@ p, li {
 }
 
 .btn-form:hover { /* Resource: https://stackoverflow.com/questions/25923623/change-hover-color-on-a-button-with-bootstrap-customization */
-    background-color: #695138;
+    background-color: #8f6f4d;
+    color: #fafafa;
 }
 
 
-/* ----------------------------- Media Queries */
+/* ---------------------------------------------------------- Media Queries */
 
 
 @media screen and (max-width: 600px) {
