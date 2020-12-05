@@ -179,16 +179,28 @@ p, li, .contact-form-text{
 
 /* ---------------------------------------------------------- Media Queries */
 
+/* Hero image */
 
 @media screen and (max-width: 600px) {
-    #hero-h2, #hero-h1, #hero-button {
+    #hero-h2, #hero-button {
         display: none; 
     }
+}
 
 @media screen and (max-width: 600px) {
     #logo {
         padding-left: 10px;
     }
+}
+
+/* Resource: Style inspiration from https://haddingtonhouse.ie/ */
+@media screen and (max-width: 600px) {
+    #hero-h1 {
+        padding: 350px 0 0 0;
+        font-size: 25px;
+    }
+}
+
 
 
 /* Reference: https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries */
