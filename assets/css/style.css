@@ -51,13 +51,6 @@ p, li, .contact-form-text{
     padding: 30px 0 30px 0;
 }
 
-#logo {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
-    font-size: 20pt;
-    color: #8f6f4d;
-}
-
 .hamburger-button {
     margin: 0 10px;
 }
@@ -66,6 +59,7 @@ p, li, .contact-form-text{
 .nav-link {
     color: #695138 !important;
 }
+
 
 
 /* ---------------------------------------------------------- Hero-image */
@@ -264,7 +258,7 @@ footer .contact-number, footer .contact-email {
 
 @media screen and (max-width: 600px) {
     .follow-us {
-    padding-top: 30px;
+    padding-top: 40px;
     }
 }
 
