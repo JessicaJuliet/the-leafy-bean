@@ -236,7 +236,7 @@ footer .fontawesome-icons {
     padding-top: 60px;
     line-height: 50px;
     color: #fafafa;
-    min-height: 350px;
+    min-height: 400px;
     font-size: 15px;
 }
 
@@ -247,6 +247,15 @@ footer .fontawesome-icons {
 
 footer .contact-number, footer .contact-email {
     color: white;
+}
+
+.social-icon {
+    font-size: 40px;
+    padding: 15px 30px 0 0;
+}
+
+.contact-footer {
+    line-height: 40px;
 }
 
 /* ---------------------------------------------------------- Media Queries */
@@ -272,6 +281,14 @@ footer .contact-number, footer .contact-email {
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .follow-us {
+    padding-top: 30px;
+    }
+}
+
+
 
 /* Reference: https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries */
 
