@@ -71,9 +71,9 @@ p, li, .contact-form-text{
 /* ---------------------------------------------------------- Hero-image */
 
 .hero-image {
-    background: url("../img/hero-image.jpg");   
     /* Photo by Chevanon Photography from Pexels - 
-    https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/*/
+    https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/ */
+    background: url("../img/hero-image.jpg");   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,12 @@ p, li, .contact-form-text{
     background-color: #8f6f4d;
     height: 55px;
     width: 145px;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+#hero-button:hover {
+    color: #8f6f4d;
+    background-color: #fafafa;
 }
 
 /* ---------------------------------------------------------- Four icon section */
