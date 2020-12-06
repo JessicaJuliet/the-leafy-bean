@@ -169,7 +169,6 @@ p, li, .contact-form-text{
 
 .form-section {
     background-color: rgba(143, 111, 77, 0.3);
-    padding: 35px;
 }
 
 .contact-form-text {
@@ -188,14 +187,13 @@ p, li, .contact-form-text{
 a {color: inherit}; 
 
 .form-button {
-    margin-top: 20px;
-    font-weight: 700;
-    color: #8f6f4d;
-    background-color: #fafafa;
+    font-weight: 500;
+    color: #fafafa;
+    background-color: #8f6f4d;
     height: 55px;
     width: 145px;
-    border: none;
-}
+    font-size: 20px;
+} 
 
 .btn-form:hover { /* Resource: https://stackoverflow.com/questions/25923623/change-hover-color-on-a-button-with-bootstrap-customization */
     background-color: #8f6f4d;
