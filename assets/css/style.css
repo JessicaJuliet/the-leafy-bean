@@ -243,6 +243,14 @@ footer .contact-number, footer .contact-email {
 
 /* ---------------------------------------------------------- Media Queries */
 
+/* General */
+
+@media screen and (max-width: 600px){
+    .my-section {
+        padding: 30px 10px 0 10px;
+    }
+}
+
 /* Navbar */
 @media screen and (max-width: 600px) {
     #logo {
