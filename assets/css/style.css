@@ -47,6 +47,10 @@ p, li, .contact-form-text{
 
 /* ---------------------------------------------------------- Navbar */
 
+#logo {
+    width: 300px;
+}
+
 .navbar-custom {
     padding: 30px 0 30px 0;
 }
@@ -60,7 +64,9 @@ p, li, .contact-form-text{
     color: #695138 !important;
 }
 
-
+.navbar-nav .nav-link {
+    padding-left: 20px;
+}
 
 /* ---------------------------------------------------------- Hero-image */
 

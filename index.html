@@ -6,34 +6,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="icon" type="img/png" href="assets/img/favicon-32x32.png"> <!-- Resource: https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-png-format/-->
+    <!-- Resource: How to add a favicon to website https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-png-format/ -->
+    <link rel="icon" type="img/png" href="assets/img/favicon-32x32.png"> 
     <link rel="icon" type="img/png" href="assets/img/favicon-16x16.png">
     <title>The Leafy Bean | Coffee Shop</title>
 </head>
 <body>
-
 <!-- Start header --> 
     <header>
-    <!-- Used Bootstrap code to create nav - https://getbootstrap.com/docs/4.0/components/navbar/-->
-    <!-- Resource: https://stackoverflow.com/questions/34125917/how-to-make-anchor-links-jump-to-content-when-using-bootstrap-tabs to create jump links-->
-        <nav class="navbar-custom navbar fixed-top navbar-expand-lg navbar-light bg-white">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/leafy-bean-logo.png" id="logo" width="300px">
-                </a>
-                <button class="navbar-toggler hamburger-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Resource: Bootstrap code for navbar https://getbootstrap.com/docs/4.0/components/navbar/ -->
+        <nav class="container navbar-custom navbar fixed-top navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/leafy-bean-logo.png" id="logo">
+            </a>
+            <button class="navbar-toggler hamburger-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon hamburger-button"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                        <!-- Resource: How to create jumplinks https://stackoverflow.com/questions/34125917/how-to-make-anchor-links-jump-to-content-when-using-bootstrap-tabs -->
                         <a class="nav-item nav-link" href="#coffee-to-go-nav-link">Coffee to Go</a>
                         <a class="nav-item nav-link" href="#bean-points-nav-link">Bean Points</a>
                         <a class="nav-item nav-link" href="#about-nav-link">About</a>
                         <a class="nav-item nav-link" href="#opening-hours-nav-link">Opening Hours</a>
                         <a class="nav-item nav-link" href="#find-us-nav-link">Find Us</a>
                         <a class="nav-item nav-link" href="#contact-nav-link">Contact</a>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -49,7 +46,7 @@
                 <h2 id="hero-h2">Discover the finest coffee 
                 in the heart of Blackrock</h2>
                 <br>
-                <a href="#opening-hours-nav-link">
+                <a href="#opening-hours-nav-link" id="coffee-to-go-nav-link">
                     <button type="button" class="btn btn-light" id="hero-button">
                     Visit Us</button>
                 </a>
@@ -60,7 +57,7 @@
 <!-- End hero image -->
 <!-- Start 'Coffee to Go' section --> 
     <div class="colour-section my-section"> <!-- Start colour box around 'Coffee to Go' and four icons -->   
-        <section id="coffee-to-go-nav-link">
+        <section>
             <div class="container">
             <h2>Coffee to Go</h2>
                 <div class="row">
@@ -99,7 +96,7 @@
                     <br>Column
                 </div>
                  <div class="col-6 col-lg-3 four-icons zoom">
-                    <span class="fa fa-envira my-icon" aria-hidden="true"></span>
+                    <span class="fa fa-envira my-icon" aria-hidden="true" id="bean-points-nav-link"></span>
                     <br>Column
                 </div>
             </div>
@@ -107,7 +104,7 @@
     </div> <!-- Ends colour box around 'Coffee to Go' and four icons -->
 <!-- End four row icons -->
 <!-- Start 'Bean Points' section -->  
-    <section class="my-section" id="bean-points-nav-link">
+    <section class="my-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">   <!-- Resource: https://www.youtube.com/watch?v=hRsy3MGT-mE for image to align right -->
@@ -130,7 +127,7 @@
                         <li>Collect a Bean Points loyalty card on your next visit</li>
                         <li>Get your loyalty card stamped after each coffee you purchase</li>
                         <li>Watch your Bean Points add up</li>
-                        <li>Collect your free coffee once you've reached 12 points</li>
+                        <li id="about-nav-link">Collect your free coffee once you've reached 12 points</li>
                     </ul>
                 </div>  
             </div>
@@ -138,7 +135,7 @@
     </section>
 <!-- End 'Bean Points' section -->  
 <!-- Start 'About' section -->
-    <section class="my-section colour-section" id="about-nav-link">
+    <section class="my-section colour-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-md-6 col-lg-6">
@@ -164,14 +161,14 @@
                 </div>
                 <div class="col-6 col-lg-3 column">  
                     <img src="assets/img/coffee-shop-3.jpg" class="img-fluid" alt="Three hands holding coffee cups together">
-                    <img src="assets/img/coffee-shop-4.jpg" class="img-fluid" alt="Coffee machine">
+                    <img src="assets/img/coffee-shop-4.jpg" id="opening-hours-nav-link" class="img-fluid" alt="Coffee machine">
                 </div>
             </div>
         </div>
     </section>
 <!-- End 'About' section -->
 <!-- Start 'Opening Hours' / 'Find Us' section -->
-    <section class="my-section" id="opening-hours-nav-link">
+    <section class="my-section" id="find-us-nav-link">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6 box1"> 
@@ -188,9 +185,9 @@
                         <strong>Sunday:</strong> 9.00am - 16.00pm
                     </p>  
                     <br>
-                    <h2 class="h2-heading-style" id="find-us-nav-link">Find Us</h2>
+                    <h2 class="h2-heading-style">Find Us</h2>
                      <p>
-                        <span class="fa fa-map-marker fontawesome-icons"></span>
+                        <span class="fa fa-map-marker fontawesome-icons" id="contact-nav-link"></span>
                         <strong>The Leafy Bean</strong><br>
                         Main Street<br>
                         Blackrock<br>
@@ -202,7 +199,7 @@
     </section>
 <!-- End 'Opening Hours' / 'Find Us' section -->
 <!-- Contact section -->    
-    <section class="form-section" id="contact-nav-link">
+    <section class="form-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-md-12 col-lg-12">
