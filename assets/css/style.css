@@ -241,6 +241,14 @@ footer .contact-number, footer .contact-email {
 
 /* ---------------------------------------------------------- Media Queries */
 
+/* Navbar */
+@media screen and (max-width: 600px) {
+    #logo {
+        width: 200px;
+        padding: 0 0 0 20px;
+    }
+}
+
 /* Hero image */
 
 @media screen and (max-width: 600px) {
@@ -249,20 +257,17 @@ footer .contact-number, footer .contact-email {
     }
 }
 
-@media screen and (max-width: 600px) {
-    #logo {
-        width: 200px;
-        padding: 0 0 0 20px;
-    }
-}
-
-/* Resource: Style inspiration from https://haddingtonhouse.ie/ */
+    /* Resource: Style inspiration for mobile nav from https://haddingtonhouse.ie/ */
 @media screen and (max-width: 600px) {
     #hero-h1 {
         padding: 350px 0 0 0;
         font-size: 25px;
     }
 }
+
+/* Footer */
+
+
 
 @media screen and (max-width: 600px) {
     .follow-us {
