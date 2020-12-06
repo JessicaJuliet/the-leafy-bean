@@ -244,7 +244,8 @@ footer .contact-number, footer .contact-email {
 
 @media screen and (max-width: 600px) {
     #logo {
-        padding-left: 10px;
+        width: 200px;
+        padding: 0 0 0 20px;
     }
 }
 
