@@ -28,14 +28,14 @@
 
 ## Purpose
 
-Many local businesses in Ireland have been hit hard by the COVID-19 pandemic this year. New Government restrictions have led to shop closures and continued uncertainty for small businesses. As consumers’ buying habits shift predominantly online, it’s more important than ever for small businesses 
+Many local businesses in Ireland have been hit hard by the COVID-19 pandemic. New Government restrictions have led to shop closures and continued uncertainty for small businesses. As consumers’ buying habits shift predominantly online, it’s more important than ever for small businesses 
 to have a strong online presence during these challenging times. 
 
-I have created a fictional local independent coffee shop called The Leafy Bean in Blackrock, Dublin. The Leafy Bean has a poor online presence and are struggling to reach their customers during the pandemic. They requested a fully responsive website which will allow them to notify their customers of their opening hours in line with government restrictions, and promote their new takeaway coffee service. Furthermore, The Leafy Bean wants to establish itself as a local provider of the best coffee in Blackrock and provide information about its speciality coffee blend.
+I have created a fictional local independent coffee shop called The Leafy Bean located in Blackrock, Dublin. The Leafy Bean has a poor online presence and is struggling to reach their customers during the pandemic. They requested a fully responsive website which will allow them to notify their customers of their opening hours in line with government restrictions, and promote their new takeaway coffee service. Furthermore, The Leafy Bean wants to establish itself as a local provider of the best coffee in Blackrock and provide information about its high quality coffee beans.
 
 Please note, this company is entirely fictional and was created for the Code Institute’s Milestone Project 1 as part of their Diploma in Full Stack Software Development. It was developed using the knowledge gained from the HTML, CSS and User Centric Design modules. 
 
-Please see [The Leafy Bean’s](#) live website. 
+Please see [The Leafy Bean’s](https://jessicajuliet.github.io/the-leafy-bean/) live website. 
 
 ## User Experience Design (UXD)
 
@@ -66,9 +66,9 @@ Please see [The Leafy Bean’s](#) live website.
 ## Design 
 
 ### Colour Scheme
-The two main colours used across the website are white and brown to tie in with The Leafy Bean's product offering - coffee. Furthermore, dark grey text was used instead of black for the paragraph text to improve its readability against the screens white background.
+The two main colours used across the website are white and brown to tie in with The Leafy Bean's product offering - coffee. Furthermore, a dark grey was used for the paragraph text, instead of black, to improve its contrast and readability on screens.
 
-Adobe Color was used to create a colour swatch to find the right shade of brown for the site. A dark brown (Hex Code #695138) was used for H2 headings on the site and a lighter shade of brown for icons and buttons (Hex Code #8f6f4d). 
+Adobe Color was used to create a colour swatch to find the right shade of brown for the site. A dark brown (Hex Code #695138) was used for the H2 headings and a lighter shade of brown (Hex Code #8f6f4d) was used for icons and buttons. 
 
 #### _Adobe Color Swatch_:
 
@@ -77,13 +77,15 @@ Adobe Color was used to create a colour swatch to find the right shade of brown 
 
 ### Wireframes
 
-The Leafy Bean's website is a single page site. Please see the wireframes below for the varying devices:
-* [Mobile Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/mobile-wireframe.pdf)
-* [Tablet Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/tablet-wireframe.pdf)
-* [Desktop Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/desktop-wireframe.pdf)
+The Leafy Bean's website is a single page site. A single page design was chosen because the website has a narrow focus and is purely informational. Furthermore it's ideal for a mobile first design and users will have less clicking to do to find the information they need. 
 
-A high-fidelity mockup for mobile was also created using Adobe Illustrator to trial the use of colour and to allow for better visualisation of how the website would look prior to commencing coding.
-* [High-fidelity mobile mockup](https://github.com/JessicaJuliet/the-leafy-bean/blob/86dd6b3e21eb27d3abd5b2a5c0b98fe7d6890ee4/assets/wireframes/hifi-mobile-mockup.png)
+Please see the wireframes below for the varying devices:
+* [Mobile Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/d62452db8b21e054deae33caea1cf9dfdeb1d65a/assets/wireframes/mobile-wireframe.pdf)
+* [Tablet Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/d62452db8b21e054deae33caea1cf9dfdeb1d65a/assets/wireframes/tablet-wireframe.pdf)
+* [Desktop Wireframe](https://github.com/JessicaJuliet/the-leafy-bean/blob/d62452db8b21e054deae33caea1cf9dfdeb1d65a/assets/wireframes/desktop-wireframe.pdf)
+
+A high-fidelity mockup for mobile was also created using Adobe Illustrator to trial the use of colour and to allow for better visualisation of how the website would look prior to commencing coding. 
+* [High-fidelity mobile mockup](https://github.com/JessicaJuliet/the-leafy-bean/blob/d62452db8b21e054deae33caea1cf9dfdeb1d65a/assets/wireframes/hifi-mobile-mockup.png)
 
 ### Fonts
 
@@ -92,7 +94,7 @@ based on inspiration take from [The Art of Coffee](https://theartofcoffee.ie/) w
 I didn't feel that Playfair Display tied into the branding I had in mind for The Leafy Bean - a fun and modern coffee shop 
 who's knowledgeable about their coffee! 
 
-I trialed new fonts using Google Fonts and Google Chrome Developer tools to see sample text from The Leafy Bean's website in various fonts. Furthermore, I took guidance from Google Font's "Popular Pairings" to find new fonts.  
+I trialed new fonts using Google Fonts and Google Chrome Developer tools to view sample text from The Leafy Bean's website in various fonts. Furthermore, I took guidance from Google Font's "Popular Pairings" to find new fonts.  
 
 I decided to change Playfair Display to [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=roboto) instead. Roboto Slab offers a more fun font with its friendly and open curves, versus Playfair which has a more vintage feel to it. 
 
