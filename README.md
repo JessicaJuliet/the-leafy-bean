@@ -161,9 +161,9 @@ The Footer highlights the shops contact details and address again it also includ
 
 > As a first-time visitor, I want to locate their social media links to see if they have a large social following and whether they're well-rated
 
+### Features Left to Implement  
 
-
-### Additional Features 
+Users would like to have a newsletter to sign up to which provides them which insights on the latest coffee trends. This feature was not implemented in the initial release, but will be addressed for a future release. It's dependent on the growth of The Leafy Bean's marketing team.
 
 ## Technologies Used
 
