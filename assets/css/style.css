@@ -47,7 +47,7 @@ p, li, .contact-form-text{
 
 /* ---------------------------------------------------------- Navbar */
 
-#logo {
+.logo {
     width: 300px;
 }
 
@@ -236,6 +236,11 @@ footer .contact-number, footer .contact-email {
 
 .contact-footer {
     line-height: 40px;
+}
+
+.logo-footer {
+    padding: 10px 0 10px 0; 
+    width: 200px;
 }
 
 

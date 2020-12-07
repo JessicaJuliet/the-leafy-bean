@@ -1,3 +1,5 @@
+# The Leafy Bean Website
+
 ## Table of Contents
 
 * Purpose
@@ -22,9 +24,6 @@
 * Credits 
 
 ------
-
-
-# The Leafy Bean Website
 
 ## Purpose
 
@@ -153,7 +152,7 @@ The Opening Hours/ Find Us section includes details of The Leafy Bean's opening 
 
 **Section 7 - Contact**
 
-The Contact section offers a simple contact form to allow the user to send a message to the shop with any queries they may have. The fields are all required and it will not allow a user to submit it unless it has an @ in their email address.
+The Contact section offers a simple contact form to allow the user to send a message to the shop with any queries they may have. The fields are all required and it will not allow a user to submit it unless the email input is valid (contains @).
 
 **Section 8 - Footer**
 
