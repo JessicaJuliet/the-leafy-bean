@@ -233,6 +233,14 @@ footer .contact-number, footer .contact-email {
     padding: 15px 30px 0 0;
 }
 
+.fa-facebook-square:hover {
+    color: white;
+}
+
+.fa-instagram:hover {
+    color: white;
+}
+
 .contact-footer {
     line-height: 40px;
 }
