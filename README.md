@@ -99,30 +99,69 @@ I trialed new fonts using Google Fonts and Google Chrome Developer tools to view
 I decided to change Playfair Display to [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=roboto) instead. Roboto Slab offers a more fun font with its friendly and open curves, versus Playfair which has a more vintage feel to it. 
 
 ### Imagery
-The website uses strong impactful imagery of coffee to reinforce The Leafy Bean's product offering and to also appeal to the website user. The size and positioning of these images will vary depending on the screensize. 
 
-## Structure  
+The website uses strong impactful coffee related imagery to reinforce The Leafy Bean's product offering and to also appeal to the website user. These images were sourced from [Pexels](www.pexels.com) and [Unsplash](www.unsplash.com) and referenced in the code. In addition, the images give structure and dimension to the website and help provide the user with a positive overall user experience. The size and positioning of these images will vary depending on the screensize. 
 
-The website is a single page site and is broken down into seven sections. Each section is described in more detail below along with its features: 
-
-* Section 1 - Header
-
-* Section 2 - Coffee to Go
-* Section 3 - Bean Points
-* Section 4 - About
-* Section 5 - Opening Hours/ Find Us
-* Section 6 - Contact 
-* Section 7 - Footer
+Lots of white space was used to help structure and organise the content, improve user experience and improve the legibility of text on the site
 
 ## Features
 
+The website is a single page site and is broken down into eight sections. Each section is described in more detail below along with its features and how they meet the visitor goals outlined in the user stories: 
+
 ### Existing Features
-* Navbar - The navbar is fully responsive and sticky to ensure the user can easily access all navigational items at any point on the website. Furthermore, it collapses into a hamburger icon on smaller devices
-* Imagery - Impactful coffee related imagery was sourced from [Pexels](www.pexels.com) and [Unsplash](www.unsplash.com). These give structure and dimension to the website and help provide the user with a positive user experience on the website. 
-* Icons - Icons were used in the 'Coffee to Go' section so users could quickly identify The Leafy Bean's key selling points 
-* White space - Lots of white space was used to help structure and organise the content, improve user experience and improve the legibility of text on the site
-* Contact form - A simple contact form is included to allow users to send a message to the cafe. It will not allow a user to submit it unless it has their email address
-* Map - A Google map was embedded on the website
+
+**Section 1 - Navbar**
+
+The Navbar is fully responsive and collapses down into a hamburger menu on smaller devices. In addition, it provides a full list of links to access each of the key sections on the website, and remains fixed to the top on all devices so the user can easily navigate the site should they not wish to scroll.
+
+> As a first-time visitor, I want to be able to navigate through the website easily on mobile to find what I’m looking for
+    
+**Section 2 - Hero Image**
+
+The hero image sets the scene for The Leafy Bean's quality product offering by displaying a large and enticing image of coffee and descriptive text overlaying that. 
+It includes a CTA which directs users to the shops Opening Hours/ Find Us section of the website. The text displayed shortens down to just the H1 heading on mobile devices so as not to obstruct the users view of the attractive coffee image.
+
+> As a first-time visitor, I want to see a visually pleasing website with eye-catching coffee related imagery to entice me to buy
+
+**Section 3 - Coffee to Go**
+
+The Coffee to Go section provides information about The Leafy Bean's takeaway coffee service. It includes four icons which highlight the shops unique selling points and expand when hovered over on desktop or click on mobile or tablet devices. They allow users to quickly identify The Leafy Bean's key selling points 
+
+> As a returning visitor, I want to find information about their takeaway service
+
+> As a frequent visitor, I want see if they they take resuable cups
+
+> As a returning visitor, I want to see information about the quality of their coffee beans
+
+**Section 4 - Bean Points**
+
+The Bean Points section describes details of the shops loyalty scheme and provides a strong image of coffee beans to capture the users attention.
+
+> As a frequent visitor, I want to check to see if they have a loyalty scheme
+
+**Section 5 - About**
+
+The About Section offers the user more information about The Leafy Bean and their passion for coffee. It also includes a grid of four images to help illustrate the about content. These remain in a grid of four across all devices to reduce the scrolling for users. 
+
+> As a frequent visitor, I want to read about the company to establish whether they're an independent 
+
+**Section 6 - Opening Hours/ Find Us**
+
+The Opening Hours/ Find Us section includes details of The Leafy Bean's opening hours during the COVID-19 pandemic. It also includes an embedded Google map to help users find the shops location.
+
+> As a returning visitor, I want to check the shop’s opening hours during the current COVID-19 restrictions
+
+**Section 7 - Contact**
+
+The Contact section offers a simple contact form to allow the user to send a message to the shop with any queries they may have. The fields are all required and it will not allow a user to submit it unless it has an @ in their email address.
+
+**Section 8 - Footer**
+
+The Footer highlights the shops contact details and address again it also includes links to their social platforms. These were all included in the Footer because this is a location which they are most commonly expected to be by website users.
+
+> As a first-time visitor, I want to locate their social media links to see if they have a large social following and whether they're well-rated
+
+
 
 ### Additional Features 
 
