@@ -176,17 +176,29 @@ Users would like to have a newsletter to sign up to which provides them which in
 * [balsamiq](https://balsamiq.com/wireframes/)
     * balsamiq was used to create low-fidelity wireframes of the website
 
+* [Bootstrap](https://getbootstrap.com/)
+    * Bootstrap was used throughout the website for the grid layout, navbar, forms and buttons 
+
+* HTML
+    * HTML was the main language used to create this website
+
+* CSS
+    * Custom CSS was used to add bespoke design
+
 * [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
     * Photoshop was used to create high-fidelity mock-ups of the website
 
 * [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
-    * Illustrator was used to create the logo for The Leafy Bean
+    * Illustrator was used to create the logo and favicon for the website
 
 * [Adobe Color](https://color.adobe.com/)
     * Adobe Color was used to generate a color palette for the website
 
 * [Google Fonts](https://fonts.google.com/)
     * Google Fonts was used to find and sample fonts for the website
+
+* [Font Awesome](https://fontawesome.com/)
+    * Font Awesome was used to source the icons used across the site
 
 
 ## Credits
