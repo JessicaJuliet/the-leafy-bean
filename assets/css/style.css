@@ -256,9 +256,12 @@ footer .contact-number, footer .contact-email {
 
 /* Navbar */
 @media screen and (max-width: 600px) {
-    #logo {
+    .logo {
         width: 200px;
         padding: 0 0 0 20px;
+    }
+    .navbar-custom {
+        padding: 10px;
     }
 }
 
