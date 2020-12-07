@@ -71,8 +71,7 @@ p, li, .contact-form-text{
 /* ---------------------------------------------------------- Hero-image */
 
 .hero-image {
-    /* Photo by Chevanon Photography from Pexels - 
-    https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/ */
+    /* Resource: Image sourced from Chevanon Photography on Pexels https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/ */
     background: url("../img/hero-image.jpg");   
     background-position: center;
     background-repeat: no-repeat;
