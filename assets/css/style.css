@@ -57,7 +57,7 @@ p, li, .contact-form-text{
 
 .hamburger-button {
     margin: 0 10px;
-}
+} 
 
 /* Resource: How to override Bootstrap nav styling https://stackoverflow.com/questions/38548629/overriding-bootstrap-to-change-color-of-navbar-links */
 .nav-link {
@@ -70,6 +70,7 @@ p, li, .contact-form-text{
 
 /* ---------------------------------------------------------- Hero-image */
 
+    /* Resource: Fixed bug causing position 15px left/ right https://www.w3schools.com/cssref/pr_class_position.asp */
 .hero-image {
     /* Resource: Image sourced from Chevanon Photography on Pexels https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/ */
     background: url("../img/hero-image.jpg");   
@@ -78,12 +79,16 @@ p, li, .contact-form-text{
     background-size: cover;
     min-height: 600px;
     position: relative;
+    left: 0;
+    right: 0;
 }
 
 .hero-text {
     position: absolute;
     top: 200px;
     bottom: 165px;
+    left: 0;
+    right: 0;
 }
 
 #hero-h1{
