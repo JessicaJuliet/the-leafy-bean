@@ -206,9 +206,15 @@ Users would like to have a newsletter to sign up to which provides them which in
 * Google Chrome Developer Tools
     * 
 
-* Devices
+**W3C Validator Tools**
+
+The website HTML and CSS was regularly run through the [W3C Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+A number of issues were picked up for the styling of the iFrame for the embedded Google Map. It specified that the elements used were obsolete and CSS should be used instead. This issue was fixed by moving the styling from the html file to the css file and removing the unused styles.
 
 ### Manual Testing
+
+**Devices**
 
 The website was tested on different devices with varying screen sizes including:
 * Apple iPhone XS Max
@@ -222,7 +228,7 @@ The website was tested on different devices with varying screen sizes including:
 
 Overall the website worked well across all device types, however a few minor issues were encountered. The Samsugn A71 was set to open websites in 'dark mode' and the website did not appear as well visually on this device until its settings were changed to restore its view. This highlighted the need to implement dark mode functionality in a future release, but is out of scope for this project.
 
-Furthermore, the navbar menu on the Apple iPad jumped onto two lines.
+The navbar menu on the Apple iPad jumped onto two lines when displayed horizontally. This issue was fixed by decreasing the amount of padding placed left and right on the navbar from 100px to 80px.
 
 ## Credits
 
