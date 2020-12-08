@@ -293,6 +293,9 @@ a {color: inherit};
         padding: 350px 0 0 0;
         font-size: 25px;
     }
+    .hero-text {
+        padding: 0 40px 0 10px;
+    }
 }
 
 /* Footer */
