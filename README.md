@@ -203,8 +203,9 @@ Users would like to have a newsletter to sign up to which provides them which in
 
 ### Automated Testing
 
-* Google Chrome Developer Tools
-    * 
+**Responsiveness**
+
+To check the responsiveness of the website across all devices, [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsinator](https://www.responsinator.com/) were used. 
 
 **W3C Validator Tools**
 
@@ -218,13 +219,17 @@ Another issue encountered was for the layout of the code for the hero image CTA 
 
 **Devices**
 
-The website was tested on different devices with varying screen sizes including:
+The website was also tested on different physical devices with varying screen sizes including:
 * Apple iPhone XS Max
 * Samsung Galaxy S5
 * Samsung A71
 * Apple iPad (6th generation)
 * Samsung Galaxy Tab Pro SM-T520
 * Macbook 12
+
+**Browsers**
+
+The website was also tested across different browsers including Google Chrome and Safari. It renders well on all browsers and works as intended.
 
 **Issues Encountered**
 
