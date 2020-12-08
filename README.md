@@ -212,6 +212,8 @@ The website HTML and CSS was regularly run through the [W3C Markup Validation Se
 
 A number of issues were picked up for the styling of the iFrame for the embedded Google Map. It specified that the elements used were obsolete and CSS should be used instead. This issue was fixed by moving the styling from the html file to the css file and removing the unused styles.
 
+Another issue encountered was for the layout of the code for the hero image CTA button. It identified that the button element must not appear as a descendant of the a element. This error was resolved by rearranging the code to make the a element a descendant of the button instead.
+
 ### Manual Testing
 
 **Devices**

@@ -127,6 +127,11 @@ p, li, .contact-form-text{
     background-color: #fafafa;
 }
 
+a:hover {
+    color: #8f6f4d;
+}
+
+
 /* ---------------------------------------------------------- Four icon section */
 
 
@@ -217,7 +222,7 @@ footer {
 }
 
 footer .fontawesome-icons {
-    color: white;
+    color: #fafafa;
     padding: 0 30px 0 0;
 }
 
@@ -235,7 +240,11 @@ footer .fontawesome-icons {
 }
 
 footer .contact-number, footer .contact-email {
-    color: white;
+    color: #fafafa;
+}
+
+#footer-email a:hover {
+    color: #fafafa;
 }
 
 .social-icon {
@@ -244,11 +253,11 @@ footer .contact-number, footer .contact-email {
 }
 
 .fa-facebook-square:hover {
-    color: white;
+    color: #fafafa;
 }
 
 .fa-instagram:hover {
-    color: white;
+    color: #fafafa;
 }
 
 .contact-footer {
@@ -261,7 +270,7 @@ footer .contact-number, footer .contact-email {
 }
 
     /* Resource: Remove blue styling from email link https://www.codegrepper.com/code-examples/html/css+remove+blue+hyperlink+styling */
-a {color: inherit}; 
+a {color: inherit};
 
 
 /* ---------------------------------------------------------- Media Queries */
