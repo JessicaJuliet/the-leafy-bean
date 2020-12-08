@@ -52,7 +52,7 @@ p, li, .contact-form-text{
 }
 
 .navbar-custom {
-    padding: 30px 100px 30px 100px;
+    padding: 30px 80px 30px 80px;
 } 
 
 .hamburger-button {
@@ -201,6 +201,12 @@ p, li, .contact-form-text{
 #btn-form:hover { /* Resource: https://stackoverflow.com/questions/25923623/change-hover-color-on-a-button-with-bootstrap-customization */
     background-color: #fafafa;
     color: #8f6f4d;
+}
+
+iframe {
+    width: 100%; 
+    height: 350px;
+    border: none;
 }
 
 /* ---------------------------------------------------------- Footer */
