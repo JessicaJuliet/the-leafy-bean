@@ -199,6 +199,30 @@ Users would like to have a newsletter to sign up to which provides them which in
 * [Font Awesome](https://fontawesome.com/)
     * Font Awesome was used to source the icons used across the site
 
+## Testing
+
+### Automated Testing
+
+* Google Chrome Developer Tools
+    * 
+
+* Devices
+
+### Manual Testing
+
+The website was tested on different devices with varying screen sizes including:
+* Apple iPhone XS Max
+* Samsung Galaxy S5
+* Samsung A71
+* Apple iPad (6th generation)
+* Samsung Galaxy Tab Pro SM-T520
+* Macbook 12
+
+**Issues Encountered**
+
+Overall the website worked well across all device types, however a few minor issues were encountered. The Samsugn A71 was set to open websites in 'dark mode' and the website did not appear as well visually on this device until its settings were changed to restore its view. This highlighted the need to implement dark mode functionality in a future release, but is out of scope for this project.
+
+Furthermore, the navbar menu on the Apple iPad jumped onto two lines.
 
 ## Credits
 
