@@ -120,6 +120,7 @@ p, li, .contact-form-text{
     height: 55px;
     width: 145px;
     font-size: 20px;
+    padding-top: 10px;
 }
 
 #hero-button:hover {
