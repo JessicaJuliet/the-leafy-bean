@@ -177,16 +177,6 @@ a:hover {
     flex-direction: column-reverse;
 }
 
-@media screen and (min-width: 600px) {
-    .bean-points-parent {
-        flex-direction: row;
-    }
-    .bean-points-image {
-        width: 50%;
-        min-height: 500px;
-    }
-}
-
 
 /* ---------------------------------------------------------- About section */
 
@@ -230,6 +220,11 @@ iframe {
     width: 100%; 
     height: 350px;
     border: none;
+}
+
+.opening-hours-parent {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 /* ---------------------------------------------------------- Footer */
@@ -331,9 +326,33 @@ a {color: inherit};
     }
 }
 
+/* Bean points */
+
+@media screen and (min-width: 600px) {
+    .bean-points-parent {
+        flex-direction: row;
+    }
+    .bean-points-image {
+        width: 50%;
+        min-height: 500px;
+    }
+}
+
+/* Contact Us */
+
+@media screen and (min-width: 600px) {
+    
+    .opening-hours-parent {
+        flex-direction: row;
+    }
+    .opening-hours-map {
+        width: 50%;
+        min-height: 500px;
+    }
+}
+
+
 /* Footer */
-
-
 
 @media screen and (max-width: 600px) {
     .follow-us {
