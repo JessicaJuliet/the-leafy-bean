@@ -31,8 +31,8 @@ h2::after {
     background-color: rgba(143, 111, 77, 0.05); 
 }
 
-.my-section {
-    padding: 80px 0;
+.custom-section {
+    padding: 50px 0;
 }
 
 p, li, .contact-form-text{ 
@@ -43,6 +43,10 @@ p, li, .contact-form-text{
 .fontawesome-icons {
     color: #8f6f4d;
 }
+
+a:hover {
+    color: #8f6f4d;
+} 
 
 
 /* ---------------------------------------------------------- Navbar */
@@ -55,23 +59,17 @@ p, li, .contact-form-text{
     padding: 30px 80px 30px 80px;
 } 
 
-.hamburger-button {
+.hamburger-icon {
     margin: 0 10px;
 } 
 
-/* Resource: How to override Bootstrap nav styling https://stackoverflow.com/questions/38548629/overriding-bootstrap-to-change-color-of-navbar-links */
+    /* Resource: How to override Bootstrap nav styling https://stackoverflow.com/questions/38548629/overriding-bootstrap-to-change-color-of-navbar-links */
 .nav-link {
     color: #695138 !important;
 }
 
-/*.navbar-nav .nav-link {
-    padding-left: 20px;
-} */
+/* ---------------------------------------------------------- Hero section */
 
-
-/* ---------------------------------------------------------- Hero-image */
-
-    /* Resource: Fixed bug causing position 15px left/ right https://www.w3schools.com/cssref/pr_class_position.asp */
 .hero-image {
     /* Resource: Image sourced from Chevanon Photography on Pexels https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/ */
     background: url("../img/hero-image.jpg");   
@@ -80,6 +78,7 @@ p, li, .contact-form-text{
     background-size: cover;
     min-height: 600px;
     position: relative;
+    /* Resource: Fix bug causing position 15px left and right https://www.w3schools.com/cssref/pr_class_position.asp */
     left: 0;
     right: 0;
 }
@@ -94,7 +93,7 @@ p, li, .contact-form-text{
 
 }
 
-#hero-h1{
+#hero-h1 {
     letter-spacing: 5px;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
@@ -110,36 +109,28 @@ p, li, .contact-form-text{
     color: #fafafa;
 }
 
-.btn .btn-light {
-   font-family: 'Roboto', sans-serif;
-}
-
 #hero-button {
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 500;
+    font-size: 20px;
     color: #fafafa;
     background-color: #8f6f4d;
     height: 55px;
     width: 145px;
-    font-size: 20px;
     padding-top: 10px;
 }
 
 #hero-button:hover {
-    color: #8f6f4d;
     background-color: #fafafa;
-}
-
-a:hover {
     color: #8f6f4d;
 }
 
-
-/* ---------------------------------------------------------- Four icon section */
+/* ---------------------------------------------------------- Four Icons section */
 
 
     /* Resource: Bootstrap Stacked to Horizontal layout - https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal */
 
-     /* Resource: CI course & Chrome Developer tools to align icons side-by-side -
+    /* Resource: CI course & Chrome Developer tools to align icons side-by-side -
     https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/ */
 
 .my-icon {
@@ -159,7 +150,6 @@ a:hover {
 }
 
     /* Resource: Zoom on hover https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
-
 .zoom {
   transition: transform .5s; 
   width: 20%;
@@ -173,6 +163,7 @@ a:hover {
 
 /* ---------------------------------------------------------- Bean Points section */
 
+     /* Resource: Reverse columns - https://stackoverflow.com/questions/51719144/css-flex-column-reverse-responsive */
 .bean-points-parent {
     display: flex;
     flex-direction: column-reverse;
@@ -181,14 +172,25 @@ a:hover {
 
 /* ---------------------------------------------------------- About section */
 
-.column img {
-    padding-bottom: 30px;
+.about-column img {
+    padding: 20px 0 5px 0;
 }
 
 /* ---------------------------------------------------------- Opening Hours/ Find Us section */
 
+.opening-hours-parent {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* ---------------------------------------------------------- Form section */
+
 .form-section {
     background-color: rgba(143, 111, 77, 0.3);
+}
+
+.contact-email, .contact-number {
+    padding: 0 10px 0 0;
 }
 
 .contact-form-text {
@@ -196,13 +198,7 @@ a:hover {
     font-weight: 500;
 }
 
-.contact-email, .contact-number {
-    font-weight: 300px;
-    padding: 0 30px 0 0;
-    color: #444444;
-}
-
-#btn-form {
+#contact-btn-form {
     font-weight: 400;
     color: #fafafa;
     background-color: #8f6f4d;
@@ -212,7 +208,8 @@ a:hover {
     margin: 10px 0 0 0;
 } 
 
-#btn-form:hover { /* Resource: https://stackoverflow.com/questions/25923623/change-hover-color-on-a-button-with-bootstrap-customization */
+    /* Resource: https://stackoverflow.com/questions/25923623/change-hover-color-on-a-button-with-bootstrap-customization */
+#contact-btn-form:hover { 
     background-color: #fafafa;
     color: #8f6f4d;
 }
@@ -223,33 +220,23 @@ iframe {
     border: none;
 }
 
-.opening-hours-parent {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
 /* ---------------------------------------------------------- Footer */
 
-
-footer {
+.footer {
+    line-height: 50px;
+    color: #fafafa;
+    min-height: 400px;
+    font-size: 15px;
     background-color: #8f6f4d;
 }
 
 footer .fontawesome-icons {
     color: #fafafa;
-    padding: 0 30px 0 0;
-}
-
-.footer {
-    padding-top: 60px;
-    line-height: 50px;
-    color: #fafafa;
-    min-height: 400px;
-    font-size: 15px;
+    padding: 0 20px 0 0;
 }
 
 .address {
-    padding-left: 47px;
+    padding-left: 33px;
     line-height: 20px;
 }
 
@@ -266,11 +253,7 @@ footer .contact-number, footer .contact-email {
     padding: 15px 30px 0 0;
 }
 
-.fa-facebook-square:hover {
-    color: #fafafa;
-}
-
-.fa-instagram:hover {
+.fa-facebook-square:hover, .fa-instagram:hover {
     color: #fafafa;
 }
 
@@ -279,12 +262,12 @@ footer .contact-number, footer .contact-email {
 }
 
 .logo-footer {
-    padding: 10px 0 10px 0; 
+    padding: 25px 0 15px 0; 
     width: 200px;
 }
 
-    /* Resource: Remove blue styling from email link https://www.codegrepper.com/code-examples/html/css+remove+blue+hyperlink+styling */
-a {color: inherit};
+   /* Resource: Remove blue styling from all links https://www.codegrepper.com/code-examples/html/css+remove+blue+hyperlink+styling */
+a {color: inherit}; 
 
 
 /* ---------------------------------------------------------- Media Queries */
@@ -292,10 +275,10 @@ a {color: inherit};
 /* General */
 
 @media screen and (max-width: 600px) {
-    .my-section {
-        padding: 30px 10px 0 10px;
+    .custom-section {
+        padding: 30px;
     }
-}
+} 
 
 /* Navbar */
 
@@ -317,7 +300,7 @@ a {color: inherit};
     }
 }
 
-    /* Resource: Style inspiration for mobile nav from https://haddingtonhouse.ie/ */
+    /* Resource: Style inspiration for mobile header from https://haddingtonhouse.ie/ */
 @media screen and (max-width: 600px) {
     #hero-h1 {
         padding: 350px 0 0 0;
@@ -344,7 +327,6 @@ a {color: inherit};
 /* Contact Us */
 
 @media screen and (min-width: 600px) {
-    
     .opening-hours-parent {
         flex-direction: row;
     }
@@ -354,7 +336,6 @@ a {color: inherit};
     }
 }
 
-
 /* Footer */
 
 @media screen and (max-width: 600px) {
@@ -362,22 +343,3 @@ a {color: inherit};
     padding-top: 40px;
     }
 }
-
-
-
-/* Reference: https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries */
-
-/* @media screen and (max-width: 00px){
-    .left_bottom{
-        float: left;
-        width: 100%;
-    }
-    .right_top{
-        float: left;
-        width: 100%;
-    }
-    .container{
-        display: flex;
-        flex-direction: row-reverse;
-    } 
-} https://stackoverflow.com/questions/33082796/how-to-reverse-the-order-of-elements-in-media-queries */ 

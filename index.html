@@ -20,8 +20,8 @@
             <a class="navbar-brand" href="index.html">
                 <img src="assets/img/logo.png" class="logo" alt="The Leafy Bean logo">
             </a>
-            <button class="navbar-toggler hamburger-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon hamburger-button"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon hamburger-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
@@ -44,10 +44,11 @@
             <div class="row">
                 <div class="hero-text col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <h1 id="hero-h1">The Leafy Bean</h1>
+                    <!-- Coffee to Go nav link -->
+                    <div id="coffee-to-go-nav-link"></div>
                     <br>
                     <h2 id="hero-h2">Discover the finest coffee in the heart of Blackrock</h2>
                     <br>
-                    <div id="coffee-to-go-nav-link"></div>
                     <a class="btn btn-light" id="hero-button" href="#opening-hours-nav-link" role="button">Visit Us</a>
                 </div>
             </div>
@@ -55,19 +56,20 @@
     </section>
 <!-- End hero image -->
 <!-- Start 'Coffee to Go' section --> 
-    <section class="background-colour my-section"> <!-- Background colour box around 'Coffee to Go' and four icons sections -->   
+    <!-- Background colour box around 'Coffee to Go' and 'Four Icons'sections -->
+    <section class="background-colour custom-section">    
         <section>
             <div class="container">
                 <h2>Coffee to Go</h2>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-12 col-sm-6">
                         <p>
                         We're delighted to launch our new 'Coffee to Go' service in 
                         Blackrock. We have our full range of coffees available for takeaway,
                         including our most popular Leafy Bean Signature Caramel Macchiato!
                         </p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-12 col-sm-6">
                         <p>
                         Our takeaway coffees are still being prepared by our expert baristas, 
                         using only the highest quality coffee beans. So your takeaway coffee
@@ -78,34 +80,45 @@
             </div>
         </section>
     <!-- End 'Coffee to Go' section-->
-    <!-- Start four row icons -->
+    <!-- Start Four Icons section -->
         <!-- Resource: https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal -->
         <section>
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-lg-3 four-icons zoom">
                         <span class="fa fa-coffee my-icon" aria-hidden="true"></span>
-                        <p><strong>Top Quality <br> Coffee Beans</strong></p>
+                        <p>
+                            <strong>Top Quality<br>Coffee Beans</strong>
+                        </p>
                     </div>
                     <div class="col-6 col-lg-3 four-icons zoom">
                         <span class="fa fa-user my-icon" aria-hidden="true"></span>
-                        <p><strong>Experienced <br> Baristas</strong></p>
+                        <p>
+                            <strong>Experienced<br>Baristas</strong>
+                        </p>
                     </div>
                     <div class="col-6 col-lg-3 four-icons zoom">
-                        <span class="fa fa-envira my-icon" aria-hidden="true" id="bean-points-nav-link"></span>
-                        <p><strong>We Accept <br> Reusable Cups</strong></p>
+                        <span class="fa fa-envira my-icon" aria-hidden="true"></span>
+                        <p>
+                            <strong>We Accept<br>Reusable Cups</strong>
+                        </p>
                     </div>
                     <div class="col-6 col-lg-3 four-icons zoom">
                         <span class="fa fa-map-marker my-icon" aria-hidden="true"></span>
-                        <p><strong>Located in <br> Blackrock Village</strong></p>
+                        <!-- Bean Points nav link -->
+                        <div id="bean-points-nav-link"></div> 
+                        <p>
+                            <strong>Located in<br>Blackrock Village</strong>
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-    </section> <!-- Ends colour box around 'Coffee to Go' and four row icons section -->
+    <!-- End background colour box around 'Coffee to Go' and 'Four Icons'sections -->
+    </section> 
 <!-- End four row icons -->
 <!-- Start 'Bean Points' section -->  
-    <section class="my-section">
+    <section class="custom-section">
         <div class="container">
             <div class="row bean-points-parent">
                 <div class="col-12 col-md-6 bean-points-image">   
@@ -127,72 +140,80 @@
                         <li>Collect a Bean Points loyalty card on your next visit</li>
                         <li>Get your loyalty card stamped after each coffee you purchase</li>
                         <li>Watch your Bean Points add up</li>
-                        <li id="about-nav-link">Collect your free coffee once you've reached 12 points</li>
+                        <li>Collect your free coffee once you've reached 12 points</li>
                     </ul>
+                    <div id="about-nav-link"></div> <!-- About nav link -->
                 </div>  
             </div>
         </div>
     </section>
 <!-- End 'Bean Points' section -->  
 <!-- Start 'About' section -->
-    <section class="my-section background-colour ">
+    <section class="custom-section background-colour">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-12 col-sm-6">
                     <h2>About</h2>
-                    <p class="paragraph-style"> 
+                    <p> 
                         The Leafy Bean is a lively coffee shop located in the heart of Blackrock
                         village. We're very passsionate coffee which you'll see from our 
                         expert baristas to our high quality coffee beans.
                     </p>
-                    <p class="paragraph-style"> 
+                    <p> 
                         We've spent many years perfecting our coffees by sampling and sourcing only
                         the best quality coffee beans to ensure each coffee we provide you with is of 
                         exceptional quality. 
                     </p>
-                    <p class="paragraph-style"> 
+                    <p> 
                         We recently launched our 'Coffee to Go' service so we can continue to provide
                         our customers with their favourite coffee during the COVID-19 pandemic.
                     </p>
                 </div>
-                <div class="col-6 col-sm-3 column"> 
+                <div class="col-6 col-sm-3 about-column"> 
                     <!-- Resource: Image sourced from Porapak Apichodilok on Pexels https://www.pexels.com/photo/adult-barista-beverage-cafe-373639/ -->
                     <img src="assets/img/coffee-shop-1.jpg" class="img-fluid" alt="Waiter holding coffee in hands">
                     <!-- Resource: Image sourced from Jez Timms on Unsplash https://unsplash.com/photos/NZMfceSGoQY -->
                     <img src="assets/img/coffee-shop-2.jpg" class="img-fluid" alt="Coffee and pastries on wooden table">
                 </div>
-                <div class="col-6 col-sm-3 column">  
+                <div class="col-6 col-sm-3 about-column"> 
                     <!-- Resource: Image sourced from Nathan Dumlao on Unsplash https://unsplash.com/photos/6VhPY27jdps -->
                     <img src="assets/img/coffee-shop-3.jpg" class="img-fluid" alt="Three hands holding coffee cups together">
                     <!-- Resource: Image sourced from Jessy Smith on Unsplash https://unsplash.com/photos/oKM4WFAoKmI -->
-                    <img src="assets/img/coffee-shop-4.jpg" class="img-fluid" alt="Coffee machine" id="opening-hours-nav-link" >
+                    <img src="assets/img/coffee-shop-4.jpg" class="img-fluid" alt="Coffee machine">
                 </div>
+                <div id="opening-hours-nav-link"></div> <!-- Opening Hours nav link -->
             </div>
         </div>
     </section>
 <!-- End 'About' section -->
-<!-- Start 'Opening Hours' / 'Find Us' section -->
-    <section class="my-section" id="find-us-nav-link">
+<!-- Start 'Opening Hours'/ 'Find Us' sections -->
+    <section class="custom-section" id="find-us-nav-link"> 
         <div class="container">
             <div class="row opening-hours-parent">
-                <div class="col-sm-12 col-md-6 col-lg-6 opening-hours-map"> 
-                    <div> <!-- Resources: https://www.maps.ie/create-google-map/, https://www.youtube.com/watch?v=3posLKQrhfU -->
+                <div class="col-12 col-md-6 opening-hours-map"> 
+                    <div> 
+                        <!-- Resource: https://www.maps.ie/create-google-map/, https://www.youtube.com/watch?v=3posLKQrhfU -->
                         <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Main%20Street,%20Blackrock,%20Dublin+(The%20Leafy%20Bean)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 opening-hours-text"> 
+                <div class="col-12 col-md-6 opening-hours-text"> 
                     <h2>Opening Hours</h2>
                     <p>
                         <span class="fa fa-clock-o fontawesome-icons" aria-hidden="true"></span>
-                        <strong>Monday - Friday:</strong> 9.00am - 18.00pm<br>
-                        <strong class="opening-hours-text">Saturday:</strong> 9.00am - 17.00pm<br>
+                        <strong>Monday - Friday:</strong> 9.00am - 18.00pm
+                        <br>
+                        <strong class="opening-hours-text">Saturday:</strong> 9.00am - 17.00pm
+                        <br>
                         <strong>Sunday:</strong> 9.00am - 16.00pm
                     </p>  
                     <br>
-                    <h2 class="h2-heading-style">Find Us</h2>
-                     <p>
-                        <span class="fa fa-map-marker fontawesome-icons" id="contact-nav-link"></span>
-                        <strong>The Leafy Bean</strong><br>
+                    <h2>Find Us</h2>
+                    <p>
+                        <!-- Contact nav link-->
+                        <div id="contact-nav-link"></div> 
+                        <span class="fa fa-map-marker fontawesome-icons"></span>
+                        <strong>The Leafy Bean</strong>
+                        <br>
                         Main Street<br>
                         Blackrock<br>
                         Dublin
@@ -203,29 +224,27 @@
     </section>
 <!-- End 'Opening Hours' / 'Find Us' section -->
 <!-- Contact section -->    
-    <section class="my-section form-section">
+    <section class="custom-section form-section">
         <div class="container">
             <div class="row">
-                <div class="col-sm-10 col-md-12 col-lg-12">
-                    <h2 class="form-text">Contact</h2>
+                <div class="col-12">
+                    <h2>Contact</h2>
                     <!-- Resource: Icons source from https://fontawesome.bootstrapcheatsheets.com/# -->
-                    <div class="form-text">
-                        <span class="fa fa-phone fontawesome-icons" aria-hidden="true"></span> 
-                        <span class="contact-number">(01) 123 4567</span>
-                        <span class="fa fa-envelope fontawesome-icons" aria-hidden="true"></span>
-                        <span class="contact-email"><a href="mailto:support@theleafybean.ie">support@theleafybean.ie</a></span>
-                    </div>
+                    <span class="fa fa-phone fontawesome-icons" aria-hidden="true"></span> 
+                    <span class="contact-number">(01) 123 4567</span>
+                    <span class="fa fa-envelope fontawesome-icons" aria-hidden="true"></span>
+                    <span class="contact-email"><a href="mailto:support@theleafybean.ie">support@theleafybean.ie</a></span>
                 </div>
             </div>
             <br>
-            <!-- Resource: Form code taken from https://getbootstrap.com/docs/4.0/components/forms/ -->
+            <!-- Resource: Form code sourced from https://getbootstrap.com/docs/4.0/components/forms/ -->
             <form>
-                <div class="row">
-                    <div class="col-xs-12 col-6">
+                <div class="row contact-form-text">
+                    <div class="col-12 col-sm-6">
                         <label for="form-message" class="contact-form-text">Your Name</label>
                         <input type="text" id="your-name" class="form-control" required>
                     </div>
-                    <div class="col-xs-12 col-6">
+                    <div class="col-12 col-sm-6">
                         <label for="form-message" class="contact-form-text">Your Email</label>
                         <input type="email" class="form-control" id="email" required>
                     </div>
@@ -235,17 +254,17 @@
                         <textarea class="form-control" id="form-message" rows="3" required></textarea>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-light float-right btn-form" id="btn-form">Submit</button>
+                        <button type="submit" class="btn btn-light float-right" id="contact-btn-form">Submit</button>
                     </div>
                 </div>
             </form>
         </div>
     </section>
 <!-- Footer --> 
-    <footer class="footer">
+    <footer class="footer custom-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 contact-footer">
+                <div class="col-12 col-md-6 contact-footer">
                     <h5>Contact:</h5>
                     <span class="fa fa-phone fontawesome-icons" aria-hidden="true"></span> 
                     <span class="contact-number">(01) 123 4567</span>
@@ -265,7 +284,7 @@
                         Dublin
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 follow-us">
+                <div class="col-12 col-md-6 follow-us">
                     <h5>Follow us:</h5>
                     <a href="https://www.facebook.com" target="_blank">
                         <span class="fa fa-facebook-square social-icon"></span>
