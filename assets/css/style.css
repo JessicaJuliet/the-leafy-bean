@@ -170,6 +170,23 @@ a:hover {
   transform: scale(1.2); 
 }
 
+/* ---------------------------------------------------------- Bean Points section */
+
+.bean-points-parent {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 600px) {
+    .bean-points-parent {
+        flex-direction: row;
+    }
+    .bean-points-image {
+        width: 50%;
+        min-height: 500px;
+    }
+}
+
 
 /* ---------------------------------------------------------- About section */
 
@@ -177,7 +194,7 @@ a:hover {
     padding-bottom: 30px;
 }
 
-/* ---------------------------------------------------------- Contact section */
+/* ---------------------------------------------------------- Opening Hours/ Find Us section */
 
 .form-section {
     background-color: rgba(143, 111, 77, 0.3);
@@ -278,7 +295,7 @@ a {color: inherit};
 
 /* General */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .my-section {
         padding: 30px 10px 0 10px;
     }
