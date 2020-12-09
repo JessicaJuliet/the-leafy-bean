@@ -64,9 +64,10 @@ p, li, .contact-form-text{
     color: #695138 !important;
 }
 
-.navbar-nav .nav-link {
+/*.navbar-nav .nav-link {
     padding-left: 20px;
-}
+} */
+
 
 /* ---------------------------------------------------------- Hero-image */
 
@@ -297,10 +298,11 @@ a {color: inherit};
 }
 
 /* Navbar */
+
 @media screen and (max-width: 600px) {
     .logo {
-        width: 200px;
-        padding: 0 0 0 20px;
+        width: 180px;
+        padding: 0 0 0 10px;
     }
     .navbar-custom {
         padding: 10px;
@@ -328,6 +330,7 @@ a {color: inherit};
 
 /* Bean points */
 
+    /* Resource: Reverse columns - https://stackoverflow.com/questions/51719144/css-flex-column-reverse-responsive */
 @media screen and (min-width: 600px) {
     .bean-points-parent {
         flex-direction: row;
