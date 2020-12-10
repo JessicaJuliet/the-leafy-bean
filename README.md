@@ -207,6 +207,8 @@ Users would like to have a newsletter to sign up to which provides them which in
 
 To check the responsiveness of the website across all devices, [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsinator](https://www.responsinator.com/) were used. 
 
+Furthermore, I regularly used [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) to resize the website on different device sizes throughout coding this project. 
+
 **W3C Validator Tools**
 
 The website HTML and CSS was regularly run through the [W3C Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
@@ -239,9 +241,19 @@ The navbar menu on the Apple iPad jumped onto two lines when displayed horizonta
 
 ## Credits
 
-### Media 
-* The photos used in this website were obtained from [Pexels](https://www.pexels.com/) and their source is 
-referenced in the code
+### Content
+* All written content on the website was created by me
 
+### Media 
+
+* The logo for The Leafy Bean was designed by me using Adobe Illustrator
+* The photos used in this website were obtained from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) and their source is 
+referenced in the code
+* The icons used across the website were sourced from [Font Awesome](https://fontawesome.com/)
+
+### Acknowedgements 
+
+* A huge source of inspiration for this website was drawn from [The Art of Coffee's](https://theartofcoffee.ie/) website and coffee themed projects on [Behance](https://www.behance.ne)
+* My friend, and coffee lover, Aisling gave me an insight into the target audience for this website and what they would hope to gain from it 
 
 
