@@ -169,8 +169,11 @@ Users would like to have a newsletter to sign up to which provides them which in
 * [GitHub](https://github.com/)
     * GithHub is the hosting site used to store the source code for the Website
 
-* Git
+* [Git](https://git-scm.com/)
     * Git was used as the version control software to add, commit and push code to the GitHub repository
+
+* [GitPod]()
+    * Git Pod was used as the development environmen to write my code
 
 * [balsamiq](https://balsamiq.com/wireframes/)
     * balsamiq was used to create low-fidelity wireframes of the website
@@ -194,10 +197,22 @@ Users would like to have a newsletter to sign up to which provides them which in
     * Adobe Color was used to generate a color palette for the website
 
 * [Google Fonts](https://fonts.google.com/)
-    * Google Fonts was used to find and sample fonts for the website
+    * Google Fonts was used to find, sample and import fonts for the website 
 
 * [Font Awesome](https://fontawesome.com/)
     * Font Awesome was used to source the icons used across the site
+
+* JavaScript
+    * JavaScript was used to create interactive elements such as the hamburger icon
+
+*  [Am I Responsive](http://ami.responsivedesign.is/#) 
+    * Am I Responsive was used to test the website's responsiveness across different screen sizes
+
+* [Responsinator](https://www.responsinator.com/)
+    * Responsinator was used to test the website's responsiveness across different screen sizes
+
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) 
+    * Chrome Develiper Tools was used to test the site's responsiveness and to debug the code
 
 ## Testing
 
@@ -205,7 +220,7 @@ Users would like to have a newsletter to sign up to which provides them which in
 
 **Responsiveness**
 
-To check the responsiveness of the website across all devices, [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsinator](https://www.responsinator.com/) were used. 
+To check the responsiveness of the website across all devices, [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsinator](https://www.responsinator.com/) were used. I input the projects live URL to view it across multiple device sizes.
 
 Furthermore, I regularly used [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) to resize the website on different device sizes throughout coding this project. 
 
@@ -221,7 +236,7 @@ Another issue encountered was for the layout of the code for the hero image CTA 
 
 **User Stories**
 
-* A manual review of the user stories was carried out where automation was not possible. Please view this [here](https://github.com/JessicaJuliet/the-leafy-bean/blob/b65921ae6c08edf2e7707b9f0eafe69216e0f583/assets/testing/user-story-testing.pdf).
+* A manual review of the user stories was carried out where automation was not possible. Please view this [here](https://github.com/JessicaJuliet/the-leafy-bean/blob/2f91b40b4944c7997f8f776f745ffd68d4260c17/assets/testing/user-story-testing.pdf).
 
 **Devices**
 
