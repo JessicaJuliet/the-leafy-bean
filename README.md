@@ -258,6 +258,33 @@ Overall the website worked well across all device types, however a few minor iss
 
 The navbar menu on the Apple iPad jumped onto two lines when displayed horizontally. This issue was fixed by decreasing the amount of padding placed left and right on the navbar from 100px to 80px.
 
+## Deployment
+
+### GitHub Project Creation
+
+The project was created using these steps:
+
+1. Click the green 'New' button in my GitHub repositories section
+2. Select the Code Institute template
+3. Name repository "The Leafy Bean" and give it a description
+4. Set repository to 'Public' to ensure the commit history is visible
+5. Click 'Create repository'
+
+### GitHub Pages
+
+The website was deployed using these steps:
+
+1. Open The Leafy Bean repository in GitHub
+2. Navigate to the 'Settings' tab at the top
+3. Scroll down to 'GitHub Pages' section
+4. Select 'Branch Master' as the source
+5. Click save
+6. Click link to live deployed website
+
+
+### GitHub
+
+
 ## Credits
 
 ### Content
@@ -265,7 +292,7 @@ The navbar menu on the Apple iPad jumped onto two lines when displayed horizonta
 
 ### Media 
 
-* The logo for The Leafy Bean was designed by me using Adobe Illustrator
+* The logo and Favicon for The Leafy Bean was designed by me using Adobe Illustrator
 * The photos used in this website were obtained from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) and their source is 
 referenced in the code
 * The icons used across the website were sourced from [Font Awesome](https://fontawesome.com/)
