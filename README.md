@@ -281,9 +281,14 @@ The website was deployed using these steps:
 5. Click save
 6. Click link to live deployed website
 
+### Run Locally
 
-### GitHub
-
+To run the code locally, follow these steps:
+1. Navigate to The Leafy Bean repository
+2. Click the 'Code' drop down menu
+3. Select to copy the GitHub URL from HTTPS box or 'Download Zip'
+4. Open a new terminal and type 'git clone' command in the CLI and paste copied URL
+5. Alternatively, click 'Open with GitHub Desktop' and follow the steps to complete the clone
 
 ## Credits
 
