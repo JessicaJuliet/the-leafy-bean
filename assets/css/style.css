@@ -68,6 +68,10 @@ a:hover {
     color: #695138 !important;
 }
 
+.nav-link:hover {
+    font-weight: 800 !important;
+}
+
 /* ---------------------------------------------------------- Hero section */
 
 .hero-image {
