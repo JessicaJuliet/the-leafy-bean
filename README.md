@@ -219,6 +219,10 @@ Another issue encountered was for the layout of the code for the hero image CTA 
 
 ### Manual Testing
 
+**User Stories**
+
+* A manual review of the user stories was carried out where automation was not possible. Please view this [here](https://github.com/JessicaJuliet/the-leafy-bean/blob/b65921ae6c08edf2e7707b9f0eafe69216e0f583/assets/testing/user-story-testing.pdf).
+
 **Devices**
 
 The website was also tested on different physical devices with varying screen sizes including:
@@ -255,5 +259,5 @@ referenced in the code
 
 * A huge source of inspiration for this website was drawn from [The Art of Coffee's](https://theartofcoffee.ie/) website and coffee themed projects on [Behance](https://www.behance.ne)
 * My friend, and coffee lover, Aisling gave me an insight into the target audience for this website and what they would hope to gain from it 
-
+* Thank you to my family members for testing the website across their mobile device
 
