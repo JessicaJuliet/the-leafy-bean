@@ -36,7 +36,7 @@ Please note, this company is entirely fictional and was created for the Code Ins
 
 Please see [The Leafy Bean’s](https://jessicajuliet.github.io/the-leafy-bean/) live website. 
 
-![The Leafy Bean website](https://github.com/JessicaJuliet/the-leafy-bean/blob/2c6013163ffbb101236149e15a8053ef9d84fb1f/testing/amiresponsive.png "The Leafy Bean website")
+![The Leafy Bean website](https://github.com/JessicaJuliet/the-leafy-bean/blob/6eb52d7a9c38ae54053eb01e469f7320fbadf913/testing/amiresponsive.png "The Leafy Bean website")
 
 ## User Experience Design
 
