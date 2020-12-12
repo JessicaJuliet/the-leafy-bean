@@ -73,6 +73,14 @@ a:hover {
     font-weight: 700 !important;
 }
 
+#find-us-nav-link {
+    padding-top: 50px;
+}
+
+#about-nav-link {
+     padding-top: 90px;
+ }
+
 /* ---------------------------------------------------------- Hero section */
 
 .hero-image {
