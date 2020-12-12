@@ -234,8 +234,6 @@ The website HTML and CSS was regularly run through the [W3C Markup Validation Se
 
 * The validator also gave the following error "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections." This issue was resolved by changing the section element to a div instead
 
-
-
 ### Manual Testing
 
 **User Stories**
