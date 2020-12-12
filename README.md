@@ -228,9 +228,13 @@ Furthermore, I regularly used [Google Chrome Developer Tools](https://developers
 
 The website HTML and CSS was regularly run through the [W3C Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
-A number of issues were picked up for the styling of the iFrame for the embedded Google Map. It specified that the elements used were obsolete and CSS should be used instead. This issue was fixed by moving the styling from the html file to the css file and removing the unused styles.
+* A number of issues were picked up for the styling of the iFrame for the embedded Google Map. It specified that the elements used were obsolete and CSS should be used instead. This issue was fixed by moving the styling from the html file to the css file and removing the unused styles
 
-Another issue encountered was for the layout of the code for the hero image CTA button. It identified that the button element must not appear as a descendant of the a element. This error was resolved by changing the button element to an a element instead. 
+* Another issue encountered was for the layout of the code for the hero image CTA button. It identified that the button element must not appear as a descendant of the a element. This error was resolved by changing the button element to an a element instead
+
+* The validator also gave the following error "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections." This issue was resolved by changing the section element to a div instead
+
+
 
 ### Manual Testing
 
@@ -240,7 +244,7 @@ Another issue encountered was for the layout of the code for the hero image CTA 
 
 **Devices**
 
-The website was also tested on different physical devices with varying screen sizes including:
+The website was tested on different physical devices with varying screen sizes including:
 * Apple iPhone XS Max
 * Samsung Galaxy S5
 * Samsung A71
@@ -250,13 +254,23 @@ The website was also tested on different physical devices with varying screen si
 
 **Browsers**
 
-The website was also tested across different browsers including Google Chrome and Safari. It renders well on all browsers and works as intended.
+The website was tested across different browsers including Google Chrome and Safari. It renders well on all browsers and works as intended.
+
+**Code Institute peer-code-review review**
+
+The webite was also submitted on the Code Institute's Peer Code Review channel on Slack, which highlighted a few areas for improvements. 
+
+From this feedback, I implemented a hover over effect on the navbar items and removed the "Opening Hours" nav item which linked to the same section as "Find Us". I decided not to change the four icons in the Coffee to Go section into clickable links, as my mentor highlighted that the mouse cursor should make it clear that it's not clickable.
 
 **Issues Encountered**
 
-Overall the website worked well across all device types, however a few minor issues were encountered. The Samsugn A71 was set to open websites in 'dark mode' and the website did not appear as well visually on this device until its settings were changed to restore its view. This highlighted the need to implement dark mode functionality in a future release, but is out of scope for this project.
+Overall the website worked well across all device types, however a few minor issues were encountered:
 
-The navbar menu on the Apple iPad jumped onto two lines when displayed horizontally. This issue was fixed by decreasing the amount of padding placed left and right on the navbar from 100px to 80px.
+* The Samsugn A71 was set to open websites in 'dark mode' and the website did not appear as well visually on this device until its settings were changed to restore its view. This highlighted the need to implement dark mode functionality in a future release, but is out of scope for this project
+
+* The navbar menu on the Apple iPad jumped onto two lines when displayed horizontally. This issue was fixed by decreasing the amount of padding placed left and right on the navbar from 100px to 80px
+
+* The nav links did not jump to the desired location on the page on mobile and desktop devices. Despite multiple attempts to fix this, it was impossible to get it accurate on each device. Following mentor guidance, this was left as is but could be implemented successfully with JavaScript later down the line. 
 
 ## Deployment
 
