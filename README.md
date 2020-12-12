@@ -19,9 +19,22 @@
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
     * [Automated Testing](#automated-testing)
+        * [Responsiveness](#responsiveness)
+        * [W3C Validator Tools](#w3c-validator-tools)
     * [Manual Testing](#manual-testing)
+        * [User Story Testing](#user-story-testing)
+        * [Devices](#devices)
+        * [Browsers](#browsers)
+        * [CI Peer Code Review](#ci-peer-code-review)
+        * [Issues Encountered](#issues-encountered)
 * [Deployment](#deployment)
+    * [GitHub Project Creation](#github-project-creation)
+    * [GitHub Pages](#github-pages)
+    * [Run Locally](#run-locally)
 * [Credits](#credits)
+    * [Github Project Creation](#github-project-creation)
+    * [GitHub Pages](#github-pages)
+    * [Run Locally](#run-locally)
 
 ------
 
@@ -42,19 +55,19 @@ Please see [The Leafy Bean’s](https://jessicajuliet.github.io/the-leafy-bean/)
 
 ### User Stories
 
-* First Time Visitor Goals
+#### First Time Visitor Goals
 
     * As a first-time visitor, I want to be able to navigate through the website easily on mobile to find what I’m looking for
     * As a first-time visitor, I want to see a visually pleasing website with eye-catching coffee related imagery to entice me to buy
     * As a first-time visitor, I want to locate their social media links to see if they have a large social following and whether they're well-rated
  
-* Returning Visitor Goals
+#### Returning Visitor Goals
 
     * As a returning visitor, I want to find information about their takeaway service 
     * As a returning visitor, I want to check the shop’s opening hours during the current COVID-19 restrictions
     * As a returning visitor, I want to see information about the quality of their coffee beans
 
-* Frequent Visitor Goals
+#### Frequent Visitor Goals
 
     * As a frequent visitor, I want see if they they take resuable cups
     * As a frequent visitor, I want to check to see if they have a loyalty scheme
@@ -217,13 +230,13 @@ Users would like to have a newsletter to sign up to which provides them which in
 
 ### Automated Testing
 
-**Responsiveness**
+#### Responsiveness
 
 To check the responsiveness of the website across all devices, [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsinator](https://www.responsinator.com/) were used. I input the projects live URL to view it across multiple device sizes.
 
 Furthermore, I regularly used [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) to resize the website on different device sizes throughout coding this project. 
 
-**W3C Validator Tools**
+#### W3C Validator Tools
 
 The website HTML and CSS was regularly run through the [W3C Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
@@ -235,11 +248,11 @@ The website HTML and CSS was regularly run through the [W3C Markup Validation Se
 
 ### Manual Testing
 
-**User Stories**
+#### User Story Testing
 
 * A manual review of the user stories was carried out where automation was not possible. Please view this [here](https://github.com/JessicaJuliet/the-leafy-bean/blob/2f91b40b4944c7997f8f776f745ffd68d4260c17/assets/testing/user-story-testing.pdf).
 
-**Devices**
+#### Devices
 
 The website was tested on different physical devices with varying screen sizes including:
 * Apple iPhone XS Max
@@ -249,17 +262,17 @@ The website was tested on different physical devices with varying screen sizes i
 * Samsung Galaxy Tab Pro SM-T520
 * Macbook 12
 
-**Browsers**
+#### Browsers
 
 The website was tested across different browsers including Google Chrome and Safari. It renders well on all browsers and works as intended.
 
-**Code Institute peer-code-review review**
+#### CI Peer Code Review
 
 The webite was also submitted on the Code Institute's Peer Code Review channel on Slack, which highlighted a few areas for improvements. 
 
 From this feedback, I implemented a hover over effect on the navbar items and removed the "Opening Hours" nav item which linked to the same section as "Find Us". I decided not to change the four icons in the Coffee to Go section into clickable links, as my mentor highlighted that the mouse cursor should make it clear that it's not clickable.
 
-**Issues Encountered**
+#### Issues Encountered
 
 Overall the website worked well across all device types, however a few minor issues were encountered:
 
