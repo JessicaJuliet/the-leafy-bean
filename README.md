@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-* Purpose
-* User Experience Design (UXD)
+* [Purpose](##Purpose)
+* [User Experience Design (UXD)](##User-Experience-Design-(UXD))
     * Target Audience
     * User Stories
         * First-time Visitor Goals
@@ -25,7 +25,7 @@
 
 ------
 
-## Purpose
+## Purpose 
 
 Many local businesses in Ireland have been hit hard by the COVID-19 pandemic. New Government restrictions have led to shop closures and continued uncertainty for small businesses. As consumers’ buying habits shift predominantly online, it’s more important than ever for small businesses 
 to have a strong online presence during these challenging times. 
@@ -37,7 +37,6 @@ Please note, this company is entirely fictional and was created for the Code Ins
 Please see [The Leafy Bean’s](https://jessicajuliet.github.io/the-leafy-bean/) live website. 
 
 ## User Experience Design (UXD)
-
 
 ### Target Audience
 
