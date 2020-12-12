@@ -2,30 +2,30 @@
 
 ## Table of Contents
 
-* [Purpose](##Purpose)
-* [User Experience Design (UXD)](##User-Experience-Design-(UXD))
-    * Target Audience
-    * User Stories
-        * First-time Visitor Goals
-        * Returning Visitor Goals
-        * Frequent Visitor Goals
-* Design
-    * Color scheme
-    * Typography
-    * Wireframes
-    * Imagery 
-    * Variations
-* Features
-    * Existing Features
-    * Features Left to Implement
-* Technologies Used
-* Testing
-* Deployment 
-* Credits 
+* [Purpose](#purpose)
+* [User Experience Design (UXD)](#user-experience-design)
+    * [User Stories](#user-stories)
+        * [First Time Visitor Goals](#first-time-visitor-goals)
+        * [Returning Visitor Goals](#returning-visitor-goals)
+        * [Frequent Visitor Goals](#frequent-visitor-goals)
+* [Design](#design)
+    * [Colour scheme](#colour-scheme)
+    * [Wireframes](#wireframes)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement](#features-left-to-implement)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+    * [Automated Testing](#automated-testing)
+    * [Manual Testing](#manual-testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 ------
 
-## Purpose 
+## Purpose
 
 Many local businesses in Ireland have been hit hard by the COVID-19 pandemic. New Government restrictions have led to shop closures and continued uncertainty for small businesses. As consumers’ buying habits shift predominantly online, it’s more important than ever for small businesses 
 to have a strong online presence during these challenging times. 
@@ -36,9 +36,7 @@ Please note, this company is entirely fictional and was created for the Code Ins
 
 Please see [The Leafy Bean’s](https://jessicajuliet.github.io/the-leafy-bean/) live website. 
 
-## User Experience Design (UXD)
-
-### Target Audience
+## User Experience Design
 
 ### User Stories
 
@@ -85,7 +83,7 @@ Please see the wireframes below for the varying devices:
 A high-fidelity mockup for mobile was also created using Adobe Illustrator to trial the use of colour and to allow for better visualisation of how the website would look prior to commencing coding. 
 * [High-fidelity mobile mockup](https://github.com/JessicaJuliet/the-leafy-bean/blob/d62452db8b21e054deae33caea1cf9dfdeb1d65a/assets/wireframes/hifi-mobile-mockup.png)
 
-### Fonts
+### Typography
 
 The fonts originally chosen for this website were [Roboto](https://fonts.google.com/specimen/Roboto) and [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?query=playfair), 
 based on inspiration take from [The Art of Coffee](https://theartofcoffee.ie/) website. However, once I commenced building the site, 
