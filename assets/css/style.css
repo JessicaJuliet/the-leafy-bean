@@ -187,6 +187,10 @@ a:hover {
     flex-direction: column-reverse;
 }
 
+.opening-hours {
+    line-height: 20px;
+}
+
 /* ---------------------------------------------------------- Form section */
 
 .form-section {
@@ -271,7 +275,9 @@ footer .contact-number, footer .contact-email {
 }
 
    /* Resource: Remove blue styling from all links https://www.codegrepper.com/code-examples/html/css+remove+blue+hyperlink+styling */
-a {color: inherit}; 
+a {
+    color: inherit
+}
 
 
 /* ---------------------------------------------------------- Media Queries */

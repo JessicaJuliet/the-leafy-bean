@@ -57,7 +57,7 @@
 <!-- End hero image -->
 <!-- Start 'Coffee to Go' section --> 
     <!-- Background colour box around 'Coffee to Go' and 'Four Icons'sections -->
-    <section class="background-colour custom-section">    
+    <div class="background-colour custom-section">    
         <section>
             <div class="container">
                 <h2>Coffee to Go</h2>
@@ -82,7 +82,7 @@
     <!-- End 'Coffee to Go' section-->
     <!-- Start Four Icons section -->
         <!-- Resource: https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal -->
-        <section>
+        <div>
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-lg-3 four-icons zoom">
@@ -113,9 +113,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     <!-- End background colour box around 'Coffee to Go' and 'Four Icons'sections -->
-    </section> 
+    </div> 
 <!-- End four row icons -->
 <!-- Start 'Bean Points' section -->  
     <section class="custom-section">
@@ -141,14 +141,15 @@
                         <li>Get your loyalty card stamped after each coffee you purchase</li>
                         <li>Watch your Bean Points add up</li>
                         <li>Collect your free coffee once you've reached 12 points</li>
+    
                     </ul>
-                    <div id="about-nav-link"></div> <!-- About nav link -->
                 </div>  
             </div>
         </div>
     </section>
 <!-- End 'Bean Points' section -->  
 <!-- Start 'About' section -->
+<div id="about-nav-link"></div> <!-- About nav link -->
     <section class="custom-section background-colour">
         <div class="container">
             <div class="row">
@@ -202,26 +203,22 @@
                         <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Main%20Street,%20Blackrock,%20Dublin+(The%20Leafy%20Bean)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 opening-hours-text"> 
+                <div class="col-12 col-md-6 opening-hours"> 
                     <h2>Opening Hours</h2>
-                    <p>
-                        <span class="fa fa-clock-o fontawesome-icons" aria-hidden="true"></span>
-                        <strong>Monday - Friday:</strong> 9.00am - 18.00pm
-                        <br>
-                        <strong class="opening-hours-text">Saturday:</strong> 9.00am - 17.00pm
-                        <br>
-                        <strong>Sunday:</strong> 9.00am - 16.00pm
-                    </p>  
-                    <br>
-                    <h2>Find Us</h2>
-                    <p>
-                        <span class="fa fa-map-marker fontawesome-icons"></span>
-                        <strong>The Leafy Bean</strong>
-                        <br>
-                        Main Street<br>
-                        Blackrock<br>
-                        Dublin
-                    </p> 
+                        <p>
+                            <span class="fa fa-clock-o fontawesome-icons" aria-hidden="true"></span>
+                            <strong>Monday - Friday:</strong> 9.00am - 18.00pm
+                        </p>
+                        <p><strong class="opening-hours-text">Saturday:</strong> 9.00am - 17.00pm</p>
+                        <p><strong>Sunday:</strong> 9.00am - 16.00pm</p>
+                        <h2>Find Us</h2>
+                        <p>
+                            <span class="fa fa-map-marker fontawesome-icons"></span>
+                            <strong>The Leafy Bean</strong>
+                        </p>
+                        <p>Main Street</p>
+                        <p>Blackrock</p>
+                        <p>Dublin</p>
                     <!-- Contact nav link-->
                     <div id="contact-nav-link"></div> 
                 </div>
