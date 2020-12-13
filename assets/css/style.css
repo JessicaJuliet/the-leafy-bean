@@ -16,7 +16,7 @@ h2 {
     position: relative;
 }
 
-/* Reference: Customer css underline https://www.youtube.com/watch?v=H6zj35zjKV0 */
+/* Reference: Create custom css underline under headings https://www.youtube.com/watch?v=H6zj35zjKV0 */
 h2::after {
     content:'';
     height: 3px;
@@ -38,6 +38,7 @@ h2::after {
 p, li, .contact-form-text{ 
     font-family: 'Roboto', sans-serif;
     color: #444444;
+    font-weight: 300;
 }
 
 .fontawesome-icons {
