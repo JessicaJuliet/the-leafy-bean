@@ -67,6 +67,8 @@ a:hover {
 .nav-link {
     color: #695138 !important;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
 }
 
 .nav-link:hover {
