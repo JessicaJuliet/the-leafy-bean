@@ -32,9 +32,9 @@
     * [GitHub Pages](#github-pages)
     * [Run Locally](#run-locally)
 * [Credits](#credits)
-    * [Github Project Creation](#github-project-creation)
-    * [GitHub Pages](#github-pages)
-    * [Run Locally](#run-locally)
+    * [Code and Guiding Resources](#code-and-guiding-resources)
+    * [Media](#media)
+    * [Acknowedgements](#acknowedgements)
 
 ------
 
@@ -105,7 +105,7 @@ based on inspiration take from [The Art of Coffee](https://theartofcoffee.ie/) w
 I didn't feel that Playfair Display tied into the branding I had in mind for The Leafy Bean - a fun and modern coffee shop 
 who's knowledgeable about their coffee! 
 
-I trialed new fonts using Google Fonts and Google Chrome Developer tools to view sample text from The Leafy Bean's website in various fonts. Furthermore, I took guidance from Google Font's "Popular Pairings" to find new fonts.  
+I trialed new fonts using Google Fonts and Google Chrome Developer tools to view sample text from The Leafy Bean's website in various fonts before applying them to the website. Furthermore, I took guidance from Google Font's "Popular Pairings" to find new fonts.  
 
 I decided to change Playfair Display to [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=roboto) instead. Roboto Slab offers a more fun font with its friendly and open curves, versus Playfair which has a more vintage feel to it. 
 
@@ -224,7 +224,7 @@ Users would like to have a newsletter to sign up to which provides them which in
     * Responsinator was used to test the website's responsiveness across different screen sizes
 
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) 
-    * Chrome Develiper Tools was used to test the site's responsiveness and to debug the code
+    * Chrome Develiper Tools was used to test the site's responsiveness on different devices and to debug the code
 
 ## Testing
 
@@ -234,7 +234,7 @@ Users would like to have a newsletter to sign up to which provides them which in
 
 To check the responsiveness of the website across all devices, [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsinator](https://www.responsinator.com/) were used. I input the projects live URL to view it across multiple device sizes.
 
-Furthermore, I regularly used [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) to resize the website on different device sizes throughout coding this project. 
+Furthermore, I regularly used [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) to simulate the website on different device sizes throughout coding this project. 
 
 #### W3C Validator Tools
 
@@ -316,8 +316,16 @@ To run the code locally, follow these steps:
 
 ## Credits
 
-### Content
-* All written content on the website was created by me
+### Code and Guiding Resources
+1. Sourced code for navbar from Bootstrap - https://getbootstrap.com/docs/4.0/components/navbar/
+2. Sourced code for contact form from Bootstrap - https://getbootstrap.com/docs/4.0/components/forms/
+3. Icons sourced from Font Awesome - https://fontawesome.bootstrapcheatsheets.com/
+4. Stack Overflow resource helped to create jumplinks -  https://stackoverflow.com/questions/34125917/how-to-make-anchor-links-jump-to-content-when-using-bootstrap-tabs
+5. Favicon website provided information on how to add a Favicon to the website - https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-png-format/
+6. Stack Overflow resource outlined code to collapse navbar after clicking a nav item - https://stackoverflow.com/questions/16680543/hide-twitter-bootstrap-nav-collapse-on-click/23926645 
+7. System 22 I.T. Solutions YouTube video demonstrated how to add a Google map to the website - https://www.youtube.com/watch?v=3posLKQrhfU 
+8. Provided information on Bootstrap grid - https://getbootstrap.com/docs/4.5/layout/grid/#stacked-to-horizontal
+
 
 ### Media 
 
