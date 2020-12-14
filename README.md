@@ -35,7 +35,7 @@
 * [Credits](#credits)
     * [Code and Guiding Resources](#code-and-guiding-resources)
     * [Media](#media)
-    * [Acknowedgements](#acknowedgements)
+    * [Acknowledgements](#acknowedgements)
 
 ------
 
@@ -70,7 +70,7 @@ Please see [The Leafy Bean’s](https://jessicajuliet.github.io/the-leafy-bean/)
 
 #### Frequent Visitor Goals
 
-* As a frequent visitor, I want to see if they take resuable cups
+* As a frequent visitor, I want to see if they take reusable cups
 * As a frequent visitor, I want to check to see if they have a loyalty scheme
 * As a frequent visitor, I want to read about the company to establish whether they're an independent coffee shop or a chain
 
@@ -110,7 +110,7 @@ I decided to change Playfair Display to [Roboto Slab](https://fonts.google.com/s
 
 ### Imagery
 
-The website uses strong and impactful coffee imagery to reinforce The Leafy Bean's product offering and to also appeal to the website user. These images were sourced from [Pexels](www.pexels.com) and [Unsplash](www.unsplash.com) and are referenced in the code. In addition, the images give structure and dimension to the website and help provide the user with a positive user experience. The size and positioning of these images varies depending on the screensize. 
+The website uses strong and impactful coffee imagery to reinforce The Leafy Bean's product offering and to also appeal to the website user. These images were sourced from [Pexels](www.pexels.com) and [Unsplash](www.unsplash.com) and are referenced in the code. In addition, the images give structure and dimension to the website and help provide the user with a positive user experience. The size and positioning of these images varies depending on the screen size. 
 
 Lots of white space was used to help structure and organise the content and images on the page, improve the user experience and legibility of text on the site.
 
@@ -136,29 +136,29 @@ It includes a CTA which directs users to the shops Opening Hours/ Find Us sectio
 
 **Section 3 - Coffee to Go**
 
-The Coffee to Go section provides information about The Leafy Bean's takeaway coffee service. It includes four icons which highlight the shops unique selling points which expand when hovered over or clicked. These allow users to quickly identify The Leafy Bean's key selling points 
+The Coffee to Go section provides information about The Leafy Bean's takeaway coffee service. It includes four icons which highlight the shop's unique selling points which expand when hovered over or clicked. These allow users to quickly identify The Leafy Bean's key selling points 
 
 > As a returning visitor, I want to find information about their takeaway service
 
-> As a frequent visitor, I want see if they take resuable cups
+> As a frequent visitor, I want see if they take reusable cups
 
 > As a returning visitor, I want to see information about the quality of their coffee beans
 
 **Section 4 - Bean Points**
 
-The Bean Points section describes details of the shops loyalty scheme and provides a strong image of coffee beans to capture the users attention.
+The Bean Points section describes details of the shop's loyalty scheme and provides a strong image of coffee beans to capture the users attention.
 
 > As a frequent visitor, I want to check to see if they have a loyalty scheme
 
 **Section 5 - About**
 
-The About Section offers the user more information about The Leafy Bean and their passion for coffee. It also includes a grid of four images to illustrate the about content. These remain in a grid of four across all devices to reduce the scrolling for users. 
+The About Section offers the user more information about The Leafy Bean and their passion for coffee. It also includes a grid of four images to illustrate the About section's content. These remain in a grid of four across all devices to reduce the scrolling for users. 
 
 > As a frequent visitor, I want to read about the company to establish whether they're an independent coffee shop or chain
 
 **Section 6 - Opening Hours/ Find Us**
 
-The Opening Hours/ Find Us section includes details of The Leafy Bean's opening hours during the COVID-19 pandemic. It also includes an embedded Google map to help users find the shops location.
+The Opening Hours/ Find Us section includes details of The Leafy Bean's opening hours during the COVID-19 pandemic. It also includes an embedded Google map to help users find the shop's location.
 
 > As a returning visitor, I want to check the shop’s opening hours during the COVID-19 restrictions
 
@@ -168,7 +168,7 @@ The Contact section offers a simple contact form to allow the user to send a mes
 
 **Section 8 - Footer**
 
-The Footer highlights the shops contact details and address again and also includes links to their social platforms. These were all included in the Footer because this is a location which they are most commonly expected to be by website users.
+The Footer highlights the shop's contact details and address again and also includes links to their social platforms. These were all included in the Footer because this is a location which they are most commonly expected to be by website users.
 
 > As a first-time visitor, I want to locate their social media links to see if they have a large social following and whether they're well-rated
 
@@ -238,7 +238,7 @@ Users would like to have a newsletter to sign up to which provides them which in
 
 #### Responsiveness
 
-To check the responsiveness of the website across all devices, [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsinator](https://www.responsinator.com/) were used. I input the projects live URL to view it across multiple device sizes.
+To check the responsiveness of the website across all devices, [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsinator](https://www.responsinator.com/) were used. I input the project's live URL to view it across multiple device sizes.
 
 Furthermore, I regularly used [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) to simulate the website on different device sizes throughout coding this project. 
 
@@ -284,7 +284,7 @@ From this feedback, I implemented a hover over effect on the navbar items and re
 
 Overall the website worked well across all device types, however a few minor issues were encountered:
 
-* The Samsugn A71 was set to open websites in 'dark mode' and the website did not appear as well visually on this device until its settings were changed to restore its view to normal. This highlighted the need to implement a dark mode functionality in a future release, but it's out of scope for this project
+* The Samsung A71 was set to open websites in 'dark mode' and the website did not appear as well visually on this device until its settings were changed to restore its view to normal. This highlighted the need to implement a dark mode functionality in a future release, but it's out of scope for this project
 
 * The navbar menu on the Apple iPad jumped onto two lines when displayed horizontally. This issue was fixed by decreasing the amount of padding placed left and right on the navbar from 100px to 80px
 
@@ -342,8 +342,8 @@ To run the code locally, follow these steps:
 referenced in the code
 * The icons used across the website were sourced from [Font Awesome](https://fontawesome.com/)
 
-### Acknowedgements 
+### Acknowledgements 
 
-* A huge source of inspiration for this website was drawn from [The Art of Coffee's](https://theartofcoffee.ie/) website and coffee themed projects on [Behance](https://www.behance.ne)
+* A huge source of inspiration for this website was drawn from [The Art of Coffee's](https://theartofcoffee.ie/) website and coffee themed projects on [Behance](https://www.behance.net)
 * My friend, and coffee lover, Aisling gave me a great insight into the target audience for this website 
 * Thank you to my family members for testing the website across their mobile device
