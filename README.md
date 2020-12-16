@@ -290,7 +290,7 @@ Overall the website worked well across all device types, however a few minor iss
 
 * The navbar menu on the Apple iPad jumped onto two lines when displayed horizontally. This issue was fixed by decreasing the amount of padding placed left and right on the navbar from 100px to 80px
 
-* The nav links did not jump to the desired location on the page on mobile and desktop devices. Despite multiple attempts to fix this, it was impossible to get it accurate on each device. Following mentor guidance, this was left as is but could be implemented successfully with JavaScript later down the line. 
+* The nav links did not jump to the desired locations on the website on both mobile and desktop devices and despite multiple attempts to fix this, it was impossible to get them accurate on each device. Some padding was added to the Find Us and About links to better align them to the right content when clicked. However, following mentor guidance, no further edits were made to the links and it was highlighted that these could be improved with the use of JavaScript at a later point. 
 
 ## Deployment
 
