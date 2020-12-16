@@ -339,7 +339,7 @@ To run the code locally, follow these steps:
 
 ### Media 
 
-* The logo and Favicon for The Leafy Bean was designed by me using Adobe Illustrator
+* The logo and Favicon for The Leafy Bean were designed by me using Adobe Illustrator
 * The photos used on this website were obtained from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) and their source is 
 referenced in the code
 * The icons used across the website were sourced from [Font Awesome](https://fontawesome.com/)
