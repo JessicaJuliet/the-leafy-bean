@@ -244,7 +244,9 @@ Furthermore, I regularly used [Google Chrome Developer Tools](https://developers
 
 #### W3C Validator Tools
 
-The website HTML and CSS were regularly run through the [W3C Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+The website HTML and CSS were regularly run through the [W3C Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/). A final validation check was performed with no errors before submitting the project:
+* [HTML Validator results](https://github.com/JessicaJuliet/the-leafy-bean/blob/0aed6d78d7423943c32a921853a86b8acfdf6b67/testing/w3c-html-validation.png)
+* [CSS Validator results](https://github.com/JessicaJuliet/the-leafy-bean/blob/0aed6d78d7423943c32a921853a86b8acfdf6b67/testing/w3c-css-validation.png)
 
 #### Problems Encountered
 
