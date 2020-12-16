@@ -260,7 +260,7 @@ The website HTML and CSS were regularly run through the [W3C Markup Validation S
 
 #### User Story Testing
 
-* A manual review of the user stories was carried out where automation was not possible. Please view these [here](https://github.com/JessicaJuliet/the-leafy-bean/blob/2f91b40b4944c7997f8f776f745ffd68d4260c17/assets/testing/user-story-testing.pdf).
+* A manual review of the user stories was carried out where automation was not possible. Please view these [here](https://github.com/JessicaJuliet/the-leafy-bean/blob/c85c2421758f6de1d6797fc506a929293f0bd997/testing/user-story-testing.pdf).
 
 #### Devices
 
